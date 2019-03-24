@@ -1,0 +1,4277 @@
+# created Mon Mar 18 15:03:02 2019
+# by Framsticks 4.3
+org:
+name:Urohuw Keheh
+genotype:~
+LX[Sin](lX,,llXllX[|,-1:2.295]llX[|,-2:0.3,r:1]LX[|,-3:0.232,r:1],,lX)~
+info:6.06% mutation of 'Ozeiw Keheh'
+energy0:1.0
+numparts:8
+numjoints:7
+numneurons:4
+numconnections:3
+num:499
+gnum:6
+instances:2
+lifespan:5000.0
+velocity:0.00283717269027269
+distance:14.1858634513635
+vertvel:1.46610439294661e-05
+vertpos:9.88603867069848
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g1002
+
+org:
+name:Uheaw Keheh
+genotype:~
+LX[Sin](lX,,llMXllX[|,-1:1.279]llX[|,-2:2.114,r:0.93]llX[|,-3:-0.676]LlX,,llXX)~
+info:7.89% mutation of 'Oreul Keheh'
+energy0:1.0
+numparts:10
+numjoints:9
+numneurons:4
+numconnections:3
+num:718
+gnum:11
+instances:1
+lifespan:5000.0
+velocity:0.000245206475411985
+distance:1.22603237705993
+vertvel:4.87705760946611e-06
+vertpos:9.83474069017062
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g1440
+
+org:
+name:Utocug Keheh
+genotype:~
+LX[Sin](lX,,llXllFX[|,-1:2.57,p:0.25]llX[|,-2:0.5]llX[|,-3:0.3]LX[|,-4:0.072],,lX[@,-5:1])~
+info:8.43% mutation of 'Enocar Keheh'
+energy0:1.0
+numparts:9
+numjoints:8
+numneurons:6
+numconnections:5
+num:713
+gnum:10
+instances:1
+lifespan:5000.0
+velocity:0.00209623411496053
+distance:10.4811705748027
+vertvel:1.60932681487868e-05
+vertpos:9.79003444744465
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g1430
+
+org:
+name:Yneah Dehehe
+genotype:~
+LX[Sin](, , llX[N, -1:2.064]lllX[Sin, f0:0.0628319], , llXllX[|, -1:3.209]llX, , llXlllX[|, -3:4.835]llX[|, -4:0.271, r:1]LX[|, -5:0.1], , lX)~
+info:3.52% mutation of 'Oneaf Dehehe'
+energy0:1.0
+numparts:12
+numjoints:11
+numneurons:7
+numconnections:5
+num:820
+gnum:13
+instances:1
+lifespan:5000.0
+velocity:0.000873433261621138
+distance:4.36716630810569
+vertvel:1.04526956979199e-05
+vertpos:9.85423989455052
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g1644
+
+org:
+name:Owypac Teheh
+genotype:~
+LX[Sin](,,llXllX[|,-1:1.279]llX[|,-2:5.636]llX[|]LX[|,-4:3.983],,lX)~
+info:7.35% mutation of 'Isohag Teheh'
+energy0:1.0
+numparts:8
+numjoints:7
+numneurons:5
+numconnections:3
+num:913
+gnum:9
+instances:2
+lifespan:5000.0
+velocity:0.000796907237663726
+distance:3.98453618831863
+vertvel:1.35731488459859e-05
+vertpos:9.78061147649954
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g1830
+
+org:
+name:Elohi Kehes
+genotype:~
+LFX[Sin,f0:0.0628319](,,llX[G]llX[|,-2:5.173]llMX[|,-3:0.5]llX[|,-4:0.332]LqX[|,-5:-1.481],X,lX)~
+info:5.21% mutation of 'Ykohuz Kehes'
+energy0:1.0
+numparts:9
+numjoints:8
+numneurons:6
+numconnections:4
+num:1001
+gnum:14
+instances:1
+lifespan:5000.0
+velocity:0.00473801714079797
+distance:23.6900857039899
+vertvel:1.81669294984243e-05
+vertpos:9.88298724374759
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2006
+
+org:
+name:Omypuf Teheh
+genotype:~
+LX[Sin]f(,,llXllX[|,-1:3.209]llMX[|,-2:-1.815]llX[|,-3:0.332]LX[|,-4:0.1],,lX)~
+info:7.79% mutation of 'Yzypuf Teheh'
+energy0:1.0
+numparts:8
+numjoints:7
+numneurons:5
+numconnections:4
+num:841
+gnum:12
+instances:1
+lifespan:5000.0
+velocity:0.00142545281330289
+distance:7.12726406651444
+vertvel:3.25156421391537e-05
+vertpos:9.81534072486696
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g1686
+
+org:
+name:Ocypi Hehyh
+genotype:~
+(LX[Sin]lXllX[|, -1:3.209]llMXllMX[|, -2:0.5]X[|]llX[|]LX[|], , lX)~
+info:~
+Crossing over of 'Ugypiz Hehyh' (77.61%) and 'Ocutuf Teheh' (22.39%)~
+energy0:1.0
+numparts:10
+numjoints:9
+numneurons:6
+numconnections:2
+num:1007
+gnum:13
+instances:1
+lifespan:5000.0
+velocity:0.00186334193081416
+distance:9.31670965407081
+vertvel:2.21930147507777e-05
+vertpos:9.77247245272704
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2018
+
+org:
+name:Ugypih Tehyhy
+genotype:~
+LX[Sin](, , llXllX[|, -1:1.279]X[|]llX[|]X[|]llX[|]LX[|], , lX)~
+info:~
+Crossing over of 'Elohi Kehes' (74.00%) and 'Izypir Teheh' (26.00%)~
+energy0:1.0
+numparts:10
+numjoints:9
+numneurons:7
+numconnections:1
+num:1038
+gnum:15
+instances:1
+lifespan:5000.0
+velocity:0.000975980341403431
+distance:4.87990170701715
+vertvel:1.05460858506902e-05
+vertpos:9.83648040301337
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2080
+
+org:
+name:Ineuw Hyheh
+genotype:LX[Sin,t:0](lXllX[|,-1:-1.716]lllMXllX[|]llXlX)
+info:13.33% mutation of 'Imohup Hyheh'
+energy0:1.0
+numparts:8
+numjoints:7
+numneurons:3
+numconnections:1
+num:1059
+gnum:12
+instances:1
+lifespan:5000.0
+velocity:0.00320351397769795
+distance:16.0175698884898
+vertvel:0.000109894885015786
+vertpos:9.54767248175441
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2122
+
+org:
+name:Yceuh Keheh
+genotype:~
+LX[Sin](lX,,llMXllX[|,-1:4.215]llX[|,-2:2.399,r:0.93]llX[|,-3:0.3]LlX,,llX[N,-4:1]X)~
+info:10.53% mutation of 'Yseal Keheh'
+energy0:1.0
+numparts:10
+numjoints:9
+numneurons:5
+numconnections:4
+num:1066
+gnum:13
+instances:1
+lifespan:5000.0
+velocity:0.00357996519358041
+distance:17.8998259679021
+vertvel:1.24786809638969e-05
+vertpos:9.87446652825377
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2136
+
+org:
+name:Ieit Tyheh
+genotype:~
+LX[Sin](,,llXllX[|]llX[|,-2:0.506]llX[|,-3:0.3]LX[|,-4:-0.633],,lX)~
+info:8.96% mutation of 'Acypin Tyheh'
+energy0:1.0
+numparts:8
+numjoints:7
+numneurons:5
+numconnections:3
+num:1116
+gnum:10
+instances:1
+lifespan:5000.0
+velocity:0.00240592493824006
+distance:12.0296246912003
+vertvel:2.10556191330825e-05
+vertpos:9.86029723732012
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2236
+
+org:
+name:Afohil Hyheh
+genotype:LX[Sin,t:0](lX[G]llX[|,-2:0.24]lllMXllX[|]llXlX)
+info:6.67% mutation of 'Imohup Hyheh'
+energy0:1.0
+numparts:8
+numjoints:7
+numneurons:4
+numconnections:1
+num:1150
+gnum:12
+instances:1
+lifespan:5000.0
+velocity:0.00324008951521213
+distance:16.2004475760607
+vertvel:0.000113964549902801
+vertpos:9.53715531576476
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2305
+
+org:
+name:Ewohis Kehes
+genotype:~
+LFX[Sin,f0:0.0628319](,,llX[G]llX[|,-2:5.23]llMX[|,-3:0.5]llX[|,-4:0.332]LqX[|,-5:-1.481],X,lX)~
+info:5.21% mutation of 'Elohi Kehes'
+energy0:1.0
+numparts:9
+numjoints:8
+numneurons:6
+numconnections:4
+num:1160
+gnum:15
+instances:1
+lifespan:5000.0
+velocity:0.0047392863985513
+distance:23.6964319927565
+vertvel:2.46596671564916e-05
+vertpos:9.86431569390321
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2325
+
+org:
+name:Ypyzis Tehe
+genotype:~
+LX[Sin,t:0](lX,,,llMXllX[|,-1:2.117]llX[|,-2:2.114]llX[|,-3:0.3])~
+info:6.56% mutation of 'Owyzaz Tehe'
+energy0:1.0
+numparts:7
+numjoints:6
+numneurons:4
+numconnections:3
+num:1168
+gnum:12
+instances:1
+lifespan:5000.0
+velocity:0.00526329992375033
+distance:26.3164996187517
+vertvel:4.1487049012736e-05
+vertpos:9.87993696893755
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2341
+
+org:
+name:Epohim Kyhes
+genotype:~
+LX[Sin](, , llXlllX[|]llX[|]LX[|], X[|, -4:0.423], , lX)~
+info:~
+Crossing over of 'Idypil Teheh' (45.21%) and 'Iypiz Teheh' (54.79%)~
+energy0:1.0
+numparts:8
+numjoints:7
+numneurons:5
+numconnections:1
+num:1195
+gnum:12
+instances:1
+lifespan:5000.0
+velocity:0.000170094252201427
+distance:0.850471261007135
+vertvel:8.65015474022961e-06
+vertpos:9.77352030411477
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2395
+
+org:
+name:Aohum Teheh
+genotype:~
+(LX[Sin]X, llXllX[|, -1:7.476]llMX[|, -2:2.507]llX[|, -3:0.332]LX[|, -4:1.182], , lX)~
+info:5.88% mutation of 'Uzohir Teheh'
+energy0:1.0
+numparts:9
+numjoints:8
+numneurons:5
+numconnections:4
+num:1200
+gnum:16
+instances:1
+lifespan:5000.0
+velocity:0.00210398636759969
+distance:10.5199318379984
+vertvel:5.64359798391909e-05
+vertpos:9.75133326614634
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2405
+
+org:
+name:Ihykil Tehehe
+genotype:~
+LFX[Sin, f0:0.0628319](, , llXllX[|, -1:3.209]llMX[@,3:1][|, -3:-1.891]llX[|, -4:0.332]LXLX[Sin, f0:0.0628319]lX, , llMXllX[|, -1:1.279, p:0.25]llX[|, -2:3.121]llX[|, -3:0.3]LX[|, -4:-2.292], , )~
+info:3.72% mutation of 'Apykud Tehehe'
+energy0:1.0
+numparts:14
+numjoints:13
+numneurons:10
+numconnections:8
+num:1203
+gnum:13
+instances:1
+lifespan:5000.0
+velocity:0.00269568442368665
+distance:13.4784221184332
+vertvel:0.000321110743640621
+vertpos:9.38001334865033
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2411
+
+org:
+name:Ikead Hyheh
+genotype:~
+(LX[Sin]lXllX[|]llMXX[|, -2:2.114]llX[|, -3:0.3]LX[|, -4:-3.375], , lX)~
+info:~
+Crossing over of 'Ameu Kyheh' (81.54%) and 'Iwypuw Keheh' (18.46%)~
+energy0:1.0
+numparts:9
+numjoints:8
+numneurons:5
+numconnections:3
+num:1214
+gnum:10
+instances:1
+lifespan:5000.0
+velocity:0.0158647881011641
+distance:79.3239405058203
+vertvel:8.6220516740943e-05
+vertpos:9.77128600821464
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2433
+
+org:
+name:Acohu Keheh
+genotype:~
+LX[Sin](lXX,,llMXllX[|,-1:1.279,p:0.25,p:0.25]llX[|,-2:2.114]llX[|,-3:0.3]LX[|,-4:-2.292],,lX)~
+info:1.08% mutation of 'Idohum Keheh'
+energy0:1.0
+numparts:10
+numjoints:9
+numneurons:5
+numconnections:4
+num:1233
+gnum:8
+instances:1
+lifespan:5000.0
+velocity:0.00496559313751798
+distance:24.8279656875899
+vertvel:1.49682383111822e-05
+vertpos:9.88684895321419
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2471
+
+org:
+name:Okypah Keheh
+genotype:~
+LX[Sin](lX, , llMXllX[|, -1:2.015]llX[|, -2:1.295, r:1]llX[|, -3:0.3]LlX, , llXllX[|]lllMXXllX)~
+info:5.32% mutation of 'Ywypuc Keheh'
+energy0:1.0
+numparts:13
+numjoints:12
+numneurons:5
+numconnections:3
+num:1239
+gnum:14
+instances:1
+lifespan:5000.0
+velocity:0.00396744562089881
+distance:19.8372281044941
+vertvel:1.46722100252521e-05
+vertpos:9.87793361105536
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2483
+
+org:
+name:Eohul Keheh
+genotype:~
+LX[Sin](lX,,llMXllX[|,-1:1.279]llX[|,-2:2.114,r:0.957]llX[|,-3:3.765]LlX,,,llMXllX)~
+info:6.17% mutation of 'Eteuc Keheh'
+energy0:1.0
+numparts:10
+numjoints:9
+numneurons:4
+numconnections:3
+num:1241
+gnum:15
+instances:1
+lifespan:5000.0
+velocity:0.000710329724312159
+distance:3.55164862156079
+vertvel:9.02871110930441e-06
+vertpos:9.85439440613701
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2487
+
+org:
+name:Ikohum Keheh
+genotype:~
+LX[Sin,f0:0.0628319](lX,,llMXllX[|,-1:1.279,p:0.25]llX[|,-2:0.695]llX[|,-3:0.3]LX[|,-4:-2.292],,lX)~
+info:5.05% mutation of 'Igohir Keheh'
+energy0:1.0
+numparts:9
+numjoints:8
+numneurons:5
+numconnections:4
+num:1242
+gnum:8
+instances:3
+lifespan:5000.0
+velocity:0.00608505523391969
+distance:30.4252761695985
+vertvel:1.44356710320466e-05
+vertpos:9.89218728358342
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2489
+
+org:
+name:Ogohid Kyheh
+genotype:~
+LX[Sin](lFX,,llXllX[|]llXlMX[|,-2:0.5]llX[|,-3:-2.528]LX[|,-4:-3.288],,lX)~
+info:8.45% mutation of 'Upeil Kyheh'
+energy0:1.0
+numparts:10
+numjoints:9
+numneurons:5
+numconnections:3
+num:1245
+gnum:13
+instances:2
+lifespan:5000.0
+velocity:0.00550190495419367
+distance:27.5095247709684
+vertvel:1.43927715068465e-05
+vertpos:9.89101181950779
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2495
+
+org:
+name:Yreim Keheh
+genotype:~
+LX[Sin](lX[Sin]lX, , llXllX[|, -1:0.7]llX[|, -2:0.5]llX[|, -3:0.3]LX[|, -4:0.1], , lX)~
+info:~
+Crossing over of 'Aceak Keheh' (81.01%) and 'TheFirstOne' (18.99%)~
+energy0:1.0
+numparts:10
+numjoints:9
+numneurons:6
+numconnections:4
+num:359
+gnum:2
+instances:1
+lifespan:5000.0
+velocity:0.00181417603171807
+distance:9.07088015859035
+vertvel:9.8556536787762e-06
+vertpos:9.86259997830896
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g720
+
+org:
+name:Edeid Keheh
+genotype:~
+LX[Sin](lX,,llXllX[|,-1:0.7]llX[|,-2:0.674]llX[|,-3:0.3]LX[|,-4:0.1],,lX)~
+info:7.04% mutation of 'TheFirstOne'
+energy0:1.0
+numparts:9
+numjoints:8
+numneurons:5
+numconnections:4
+num:1251
+gnum:1
+instances:1
+lifespan:5000.0
+velocity:0.00235526046527707
+distance:11.7763023263854
+vertvel:1.40377013350683e-05
+vertpos:9.88091888137484
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2507
+
+org:
+name:Edypul Keheh
+genotype:~
+LX[Sin, t:0](lXlMXllX[|,-1:1.233]llX[|,-2:1.295,r:1]llX[|,-3:0.3]LlX,,llXXX[|], lX)~
+info:~
+Crossing over of 'Ycean Keheh' (30.12%) and 'Agohum Kehehy' (69.88%)~
+energy0:1.0
+numparts:12
+numjoints:11
+numneurons:5
+numconnections:3
+num:1252
+gnum:13
+instances:2
+lifespan:5000.0
+velocity:0.00492147329139826
+distance:24.6073664569913
+vertvel:1.80646718496895e-05
+vertpos:9.87330509086204
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2509
+
+org:
+name:Olypuc Kehes
+genotype:~
+LFX[Sin,f0:0.0628319](,,llX[G]llX[|,-2:5.173]llMX[|,-3:0.5]llX[|,-4:0.343]LqX[|,-5:-1.481],X,lX)~
+info:5.21% mutation of 'Elohi Kehes'
+energy0:1.0
+numparts:9
+numjoints:8
+numneurons:6
+numconnections:4
+num:1259
+gnum:15
+instances:1
+lifespan:5000.0
+velocity:0.00460222328706488
+distance:23.0111164353244
+vertvel:1.84925159519381e-05
+vertpos:9.87966380136957
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2523
+
+org:
+name:Aeag Keheh
+genotype:~
+LX[Sin](lX,,llMXllX[|,-1:1.279,p:0.25]llX[|,-2:2.114]llX[|,-3:2.518]LX[|,-4:-2.292],,lX)~
+info:5.81% mutation of 'Ytohik Keheh'
+energy0:1.0
+numparts:9
+numjoints:8
+numneurons:5
+numconnections:4
+num:1264
+gnum:7
+instances:1
+lifespan:5000.0
+velocity:0.00148464245854786
+distance:7.4232122927393
+vertvel:9.02302025150696e-06
+vertpos:9.82391936124955
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2533
+
+org:
+name:Edesid Heheh
+genotype:~
+(LX[Sin,0:1]lX,,llMXllX[|,-1:-0.475]llX[|,-2:2.114]llX[|,-3:5.039]LX[|,-4:-1.233]X)~
+info:5.06% mutation of 'Acesug Heheh'
+energy0:1.0
+numparts:9
+numjoints:8
+numneurons:5
+numconnections:5
+num:1266
+gnum:17
+instances:1
+lifespan:5000.0
+velocity:3.16755500272701e-05
+distance:0.158377750136351
+vertvel:1.68504068158803e-07
+vertpos:9.83002724415572
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2537
+
+org:
+name:Acesug Heheh
+genotype:~
+(LX[Sin]lX,,llMXllX[|,-1:-0.475]llX[|,-2:2.114]llX[|,-3:5.039]LX[|,-4:-1.233]X)~
+info:7.59% mutation of 'Afona Heheh'
+energy0:1.0
+numparts:9
+numjoints:8
+numneurons:5
+numconnections:4
+num:1229
+gnum:16
+instances:1
+lifespan:5000.0
+velocity:0.00310689963143097
+distance:15.5344981571548
+vertvel:1.21686948479926e-05
+vertpos:9.85769109896779
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2463
+
+org:
+name:Aseak Teheh
+genotype:~
+LX[Sin](,,llXllX[|,-1:1.843]llX[|]llX[|]LX[|,-4:0.423,r:1],,lX)~
+info:7.94% mutation of 'Osean Teheh'
+energy0:1.0
+numparts:8
+numjoints:7
+numneurons:5
+numconnections:2
+num:1275
+gnum:13
+instances:1
+lifespan:5000.0
+velocity:0.00292408235482519
+distance:14.620411774126
+vertvel:3.06378430412146e-05
+vertpos:9.82796902160377
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2555
+
+org:
+name:Areud Kehes
+genotype:~
+LFX[Sin,f0:0.0628319](,,llX[G]llX[|,-2:5.23]llMX[|,-3:-4.02]llX[|,-4:0.332]LqX[|],X,lX)~
+info:10.31% mutation of 'Ytohar Kehes'
+energy0:1.0
+numparts:9
+numjoints:8
+numneurons:6
+numconnections:3
+num:1287
+gnum:18
+instances:1
+lifespan:5000.0
+velocity:0.00176348478522657
+distance:8.81742392613286
+vertvel:4.38932352185955e-05
+vertpos:9.83427272796056
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2579
+
+org:
+name:Iteil Keheh
+genotype:~
+LX[Sin](lX, , llMXllXX[|, -1:1.279]llX[|, -2:2.819]lX[|], , lX)~
+info:~
+Crossing over of 'Idohum Keheh' (56.72%) and 'Ukypuk Teheh' (43.28%)~
+energy0:1.0
+numparts:9
+numjoints:8
+numneurons:4
+numconnections:2
+num:1298
+gnum:10
+instances:1
+lifespan:5000.0
+velocity:0.00128216936912651
+distance:6.41084684563255
+vertvel:1.22649844812324e-05
+vertpos:9.87132199361217
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2601
+
+org:
+name:Iypih Teheh
+genotype:~
+LX[Sin](,,llX[N,-1:0.076]lllX[|]llX[|,-3:2.295]llX[|,-4:1.102,r:0.985]LX[|,-5:0.1],,lX)~
+info:7.45% mutation of 'Apypir Teheh'
+energy0:1.0
+numparts:8
+numjoints:7
+numneurons:6
+numconnections:4
+num:1302
+gnum:10
+instances:1
+lifespan:5000.0
+velocity:0.00359820088706034
+distance:17.9910044353017
+vertvel:4.13798112707344e-05
+vertpos:9.78594869658379
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2609
+
+org:
+name:Ynohaz Tyheh
+genotype:~
+LX[Sin](,,llXllX[|]llX[|,-2:3.766]llX[|,-3:0.3]LX[|,-4:0.052],,lX)~
+info:7.58% mutation of 'Amohum Tyheh'
+energy0:1.0
+numparts:8
+numjoints:7
+numneurons:5
+numconnections:3
+num:1166
+gnum:8
+instances:1
+lifespan:5000.0
+velocity:0.00400629722910448
+distance:20.0314861455224
+vertvel:5.53277164515908e-05
+vertpos:9.80448104923806
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2337
+
+org:
+name:Ysegaf Heheh
+genotype:~
+(LX[Sin]lX,,llMXllX[|,-1:-0.475]llX[|,-2:2.114]llX[|,-3:0.3,r:1]LX[|,-4:-2.892]X)~
+info:5.19% mutation of 'Uywum Heheh'
+energy0:1.0
+numparts:9
+numjoints:8
+numneurons:5
+numconnections:4
+num:1313
+gnum:15
+instances:1
+lifespan:5000.0
+velocity:0.00860925632288905
+distance:43.0462816144452
+vertvel:1.4133754940255e-05
+vertpos:9.88747177906391
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2631
+
+org:
+name:Imypud Hyhyh
+genotype:(llXllX[|]llXlMX[|]llX[|]LX[|], , lX)
+info:~
+Crossing over of 'Ypyzis Tehe' (96.55%) and 'Upeil Kyheh' (3.45%)~
+energy0:1.0
+numparts:8
+numjoints:7
+numneurons:4
+numconnections:0
+num:1317
+gnum:13
+instances:1
+lifespan:5000.0
+velocity:3.35864364450097e-06
+distance:0.0167932182225049
+vertvel:2.57731317208965e-08
+vertpos:9.82869419266827
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2639
+
+org:
+name:Ezeuf Teheh
+genotype:~
+LX[Sin,f0:0.017](,,llXllX[|,-1:5.827]llMX[|,-2:5.296]llX[|,-3:0.332]LX[|,-4:-1.481],,lX)~
+info:5.68% mutation of 'Ozeun Teheh'
+energy0:1.0
+numparts:8
+numjoints:7
+numneurons:5
+numconnections:4
+num:1320
+gnum:15
+instances:1
+lifespan:5000.0
+velocity:0.00306262348934152
+distance:15.3131174467076
+vertvel:0.000166369964850603
+vertpos:9.65234670783323
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2645
+
+org:
+name:Utead Teheh
+genotype:~
+LrX[Sin](,,llXllX[|,-1:2.17]llMX[|,-2:2.507]llX[|,-3:-2.794]LX[|,-4:-1.481],,lX)~
+info:7.59% mutation of 'Yfean Teheh'
+energy0:1.0
+numparts:8
+numjoints:7
+numneurons:5
+numconnections:4
+num:1322
+gnum:15
+instances:1
+lifespan:5000.0
+velocity:0.0047387844590804
+distance:23.693922295402
+vertvel:0.000793101404860228
+vertpos:8.32314691580237
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2649
+
+org:
+name:Ohohac Keheh
+genotype:~
+LX[Sin](lXX,,llMXllX[|,-1:1.279,p:0.25,p:0.25]llX[|,-2:2.114]llX[|,-3:0.3,p:0.25]LX[|,-4:-2.292],,lX)~
+info:7.45% mutation of 'Acohu Keheh'
+energy0:1.0
+numparts:10
+numjoints:9
+numneurons:5
+numconnections:4
+num:1324
+gnum:9
+instances:1
+lifespan:5000.0
+velocity:0.00277035966702339
+distance:13.851798335117
+vertvel:1.65338598611751e-05
+vertpos:9.86553603077037
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2653
+
+org:
+name:Ymyki Tehehe
+genotype:~
+LFX[Sin, f0:0.0628319](, , llXllX[|, -1:3.209]llMX[@,3:0.978][|, -3:-1.891]llX[|, -4:0.332]LXLX[Sin, f0:0.0628319]lX, , llMXllX[|, -1:1.279, p:0.25]llX[|, -2:3.121]llX[|, -3:0.3]LX[|, -4:-2.292], , )~
+info:2.56% mutation of 'Ihykil Tehehe'
+energy0:1.0
+numparts:14
+numjoints:13
+numneurons:10
+numconnections:8
+num:1325
+gnum:14
+instances:1
+lifespan:5000.0
+velocity:0.00216180854783218
+distance:10.8090427391609
+vertvel:0.000424627287264292
+vertpos:9.09980598329423
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2655
+
+org:
+name:Ufeas Teheh
+genotype:~
+LX[Sin](,,llXllX[|,-1:1.279]llX[|,-2:3.023]llX[|,-3:0.119]LX[|,-4:0.3],,lX)~
+info:6.85% mutation of 'Idypil Teheh'
+energy0:1.0
+numparts:8
+numjoints:7
+numneurons:5
+numconnections:4
+num:1337
+gnum:6
+instances:1
+lifespan:5000.0
+velocity:0.00476464536010796
+distance:23.8232268005398
+vertvel:3.1163682307254e-05
+vertpos:9.85761396635794
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2679
+
+org:
+name:Eheip Teheh
+genotype:~
+(LX[Sin]lX, , llXllcX[|, -1:4.257]llMX[|, -2:0.5]llX[|, -3:3.435]LX[|, -4:-0.704], , lX)~
+info:7.06% mutation of 'Asead Teheh'
+energy0:1.0
+numparts:9
+numjoints:8
+numneurons:5
+numconnections:4
+num:1345
+gnum:9
+instances:1
+lifespan:5000.0
+velocity:0.000619507675647526
+distance:3.09753837823763
+vertvel:1.41640965671851e-05
+vertpos:9.80207790725354
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2695
+
+org:
+name:Apeit Keheh
+genotype:~
+LX[Sin](lX,,llXllX[|,-1:4.008]llX[|,-2:-4.082]llX[|,-3:0.3]LX[|,-4:0.1],,lX)~
+info:8.22% mutation of 'Aceak Keheh'
+energy0:1.0
+numparts:9
+numjoints:8
+numneurons:5
+numconnections:4
+num:493
+gnum:2
+instances:1
+lifespan:5000.0
+velocity:0.000526364358917774
+distance:2.63182179458887
+vertvel:8.556041916734e-06
+vertpos:9.82946461781194
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g990
+
+org:
+name:Ekohim Keheh
+genotype:~
+LX[Sin](lX,,llMXllX[|,-1:1.279]llX[|,-2:2.114,r:0.957]llX[|,-3:-0.093]LlX,,,llMXllX)~
+info:7.14% mutation of 'Ikeu Keheh'
+energy0:1.0
+numparts:10
+numjoints:9
+numneurons:4
+numconnections:3
+num:1347
+gnum:16
+instances:2
+lifespan:5000.0
+velocity:0.00193841771487498
+distance:9.69208857437492
+vertvel:1.97437599051304e-05
+vertpos:9.83810475380484
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2699
+
+org:
+name:Utesuw Keheheh
+genotype:~
+LFX[Sin, f0:0.0628319](, , llXllX[|, -1:3.209]llMX[@, 3:0.978][|, -3:-1.891]llX[|, -4:0.332]LXLX[Sin, f0:0.0628319]lX, , llMXllX[|, -1:1.279, p:0.25]lllMXX[|, -2:2.114]llX[|, -3:0.3]LX[|, -4:-3.375], llX[|]LX[|], , )~
+info:~
+Crossing over of 'Ikead Hyheh' (78.97%) and 'Ymyki Tehehe' (21.03%)~
+energy0:1.0
+numparts:17
+numjoints:16
+numneurons:12
+numconnections:8
+num:1349
+gnum:15
+instances:1
+lifespan:5000.0
+velocity:0.00292625339960979
+distance:14.6312669980489
+vertvel:0.000794884239794375
+vertpos:8.72904900927225
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2703
+
+org:
+name:Eohip Keheh
+genotype:~
+LX[Sin](,,llXllX[|]llX[|,-2:3.766]LX[Sin]lX,,llMXllX[|,-1:-0.475]llX[|,-2:2.114]llX,lX)~
+info:~
+Crossing over of 'Ynohaz Tyheh' (43.68%) and 'Uywum Heheh' (56.32%)~
+energy0:1.0
+numparts:12
+numjoints:11
+numneurons:6
+numconnections:3
+num:1354
+gnum:15
+instances:1
+lifespan:5000.0
+velocity:0.00174120326813297
+distance:8.70601634066487
+vertvel:1.50938228299175e-05
+vertpos:9.86980202193771
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2713
+
+org:
+name:Ozear Tehe
+genotype:~
+LX[Sin,t:0](lXllX[|,-1:1.169]llX[|,-2:2.148]llX[|,-3:0.3],lX)~
+info:8.20% mutation of 'Iweam Tehe'
+energy0:1.0
+numparts:7
+numjoints:6
+numneurons:4
+numconnections:3
+num:1355
+gnum:6
+instances:1
+lifespan:5000.0
+velocity:0.00284284355280562
+distance:14.2142177640281
+vertvel:2.72798309026054e-05
+vertpos:9.87885396112474
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2715
+
+org:
+name:Orear Keheh
+genotype:~
+LX[Sin](lX,,llMXllX[|,-1:4.215]llX[|,-2:6.14,r:0.93]llX[|,-3:-2.323]LlX,,llXX)~
+info:8.00% mutation of 'Ydeul Keheh'
+energy0:1.0
+numparts:10
+numjoints:9
+numneurons:4
+numconnections:3
+num:1359
+gnum:15
+instances:1
+lifespan:5000.0
+velocity:0.00145457183114832
+distance:7.2728591557416
+vertvel:1.66000209544169e-05
+vertpos:9.85421796114636
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2723
+
+org:
+name:Ifywin Heheh
+genotype:~
+(LX[Sin]lX, , llMXllX[|, -1:1.759]llX[|, -2:2.114]llX[|, -3:-0.346]LX[|, -4:-2.892]X)~
+info:2.53% mutation of 'Ifywin Heheh'
+energy0:1.0
+numparts:9
+numjoints:8
+numneurons:5
+numconnections:4
+num:1360
+gnum:17
+instances:1
+lifespan:5000.0
+velocity:0.0070185546643005
+distance:35.0927733215025
+vertvel:2.43792832810463e-05
+vertpos:9.78302869058649
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2725
+
+org:
+name:Ileud Hyheh
+genotype:~
+(LX[Sin]lXllX[|]llMXX[|, -2:3.128]llX[|, -3:0.3]LX[|, -4:-3.375], , lX)~
+info:7.14% mutation of 'Itea Hyheh'
+energy0:1.0
+numparts:9
+numjoints:8
+numneurons:5
+numconnections:3
+num:1361
+gnum:12
+instances:1
+lifespan:5000.0
+velocity:0.0150971104109195
+distance:75.4855520545973
+vertvel:8.9525465717109e-05
+vertpos:9.6999851178575
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2727
+
+org:
+name:Iohih Tehehe
+genotype:~
+LX[|,2:1][Sin](,,llX[N,-1:0.623]lllX[|,-2:-1.66]llX[|,-3:2.295]llX[|,-4:0.3]LX[|,-5:0.402],,lX)~
+info:7.95% mutation of 'Orohah Teheh'
+energy0:1.0
+numparts:8
+numjoints:7
+numneurons:7
+numconnections:6
+num:1000
+gnum:8
+instances:1
+lifespan:5000.0
+velocity:0.00269634529049986
+distance:13.4817264524993
+vertvel:5.11047418603531e-05
+vertpos:9.82885942190866
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2004
+
+org:
+name:Aleiz Teheh
+genotype:~
+LFX[Sin,f0:0.0628319](,,llXllX[|,-1:3.209]llMX[|,-2:-1.891]llX[|,-3:0.332]LrX[|,-4:-1.481],,lX)~
+info:2.13% mutation of 'Ageap Teheh'
+energy0:1.0
+numparts:8
+numjoints:7
+numneurons:5
+numconnections:4
+num:1364
+gnum:12
+instances:1
+lifespan:5000.0
+velocity:0.00109424278546569
+distance:5.47121392732843
+vertvel:2.95793845671483e-05
+vertpos:9.83555110882617
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2733
+
+org:
+name:Ypeah Dehehe
+genotype:~
+LX[Sin](, , llX[N, -1:2.064]lllX[Sin, f0:0.0628319], , llXllX[|, -1:3.209]llX, , llXlllX[|, -3:4.835]llX[|, -4:0.592, r:1]LX[|, -5:0.1], , lX)~
+info:3.52% mutation of 'Yneah Dehehe'
+energy0:1.0
+numparts:12
+numjoints:11
+numneurons:7
+numconnections:5
+num:1367
+gnum:14
+instances:1
+lifespan:5000.0
+velocity:0.000757256709722508
+distance:3.78628354861254
+vertvel:9.30631980098262e-06
+vertpos:9.84969189546611
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2739
+
+org:
+name:Otohat Keheh
+genotype:~
+LX[Sin](lXX,,llMXllX[|,-1:1.279,p:0.25,p:0.25]llX[|,-2:-2.531]llX[|,-3:0.3,p:0.25]LX[|,-4:-2.292],,lX)~
+info:5.94% mutation of 'Ohohac Keheh'
+energy0:1.0
+numparts:10
+numjoints:9
+numneurons:5
+numconnections:4
+num:1370
+gnum:10
+instances:1
+lifespan:5000.0
+velocity:0.00107681918226142
+distance:5.3840959113071
+vertvel:1.04226082417366e-05
+vertpos:9.86160053011073
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2745
+
+org:
+name:Oseac Teheh
+genotype:~
+LX[Sin](,,llX[N,-1:0.076]lllX[|,-2:1.326]llX[|,-3:2.295]llX[|,-4:0.271]LX[|,-5:0.1],,lX)~
+info:5.68% mutation of 'Yseid Teheh'
+energy0:1.0
+numparts:8
+numjoints:7
+numneurons:6
+numconnections:5
+num:1372
+gnum:11
+instances:1
+lifespan:5000.0
+velocity:0.00437063791624642
+distance:21.8531895812321
+vertvel:2.79853148476189e-05
+vertpos:9.85497012242815
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2749
+
+org:
+name:Ecear Tehe
+genotype:~
+LX[Sin,t:0.379](lXllX[|,-1:1.169]llX[|,-2:1.214]llX[|,-3:0.3],lX)~
+info:8.20% mutation of 'Iweam Tehe'
+energy0:1.0
+numparts:7
+numjoints:6
+numneurons:4
+numconnections:3
+num:1328
+gnum:6
+instances:1
+lifespan:5000.0
+velocity:0.00292676032880632
+distance:14.6338016440316
+vertvel:3.07057192551444e-05
+vertpos:9.87631143089333
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2661
+
+org:
+name:Oweim Teheh
+genotype:~
+LX[Sin,f0:0.017](,,llXllX[|,-1:5.827]llMX[|,-2:3.933]llX[|,-3:0.332]LX[|,-4:-1.481],,lX)~
+info:5.68% mutation of 'Ozeun Teheh'
+energy0:1.0
+numparts:8
+numjoints:7
+numneurons:5
+numconnections:4
+num:1377
+gnum:15
+instances:1
+lifespan:5000.0
+velocity:0.00259146866344414
+distance:12.9573433172207
+vertvel:0.000128906445638451
+vertpos:9.68189118713936
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2759
+
+org:
+name:Yneig Teheh
+genotype:~
+(LX[Sin]lX, , llXllcX[|, -1:4.257]llMXlX[|]LlX[|, -3:0.868]LX[|, -4:0.1], , lX)~
+info:~
+Crossing over of 'Eteuh Teheh' (84.88%) and 'Ikohum Keheh' (15.12%)~
+energy0:1.0
+numparts:10
+numjoints:9
+numneurons:5
+numconnections:3
+num:1379
+gnum:9
+instances:1
+lifespan:5000.0
+velocity:0.00236055348764087
+distance:11.8027674382043
+vertvel:1.03510192698003e-05
+vertpos:9.85940564843852
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2763
+
+org:
+name:Isocus Keheh
+genotype:~
+LX[Sin](lXX,,llXllFX[|,-1:2.57,p:0.25]llX[|,-2:0.5]llX[|,-3:0.3]LX[|,-4:0.072],,lX[@,-5:1])~
+info:1.11% mutation of 'Utocug Keheh'
+energy0:1.0
+numparts:10
+numjoints:9
+numneurons:6
+numconnections:5
+num:1381
+gnum:11
+instances:1
+lifespan:5000.0
+velocity:0.00168070983066049
+distance:8.40354915330244
+vertvel:7.76190447559166e-06
+vertpos:9.84874808845352
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2767
+
+org:
+name:Egypuc Tyheh
+genotype:~
+LX[Sin](,,llXllX[|]llX[|,-2:5.92]llX[|,-3:0.254]LX[|,-4:4.339],,lX)~
+info:7.35% mutation of 'Ysypi Tyheh'
+energy0:1.0
+numparts:8
+numjoints:7
+numneurons:5
+numconnections:3
+num:1387
+gnum:11
+instances:1
+lifespan:5000.0
+velocity:0.00206307884126485
+distance:10.3153942063242
+vertvel:2.88881750205189e-05
+vertpos:9.84897239026616
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2779
+
+org:
+name:Acypum Dyhys
+genotype:~
+LX[Sin](llX[|]llMX[|]llX[|]LqX[|], X, lX[|, r:1], , lX)~
+info:~
+Crossing over of 'Ewohis Kehes' (31.18%) and 'Aseak Teheh' (68.82%)~
+energy0:1.0
+numparts:9
+numjoints:8
+numneurons:6
+numconnections:0
+num:1389
+gnum:16
+instances:1
+lifespan:5000.0
+velocity:6.97250357143531e-06
+distance:0.0348625178571766
+vertvel:3.81498827735882e-07
+vertpos:9.81924991694762
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2783
+
+org:
+name:Iipif Tehyh
+genotype:~
+LX[Sin, t:0](lX, , , llMXllX[|, -1:4.857]lLX[Sin]lX[|]llX[|])~
+info:~
+Crossing over of 'Efehul Tehe' (87.50%) and 'Arypas Teheh' (12.50%)~
+energy0:1.0
+numparts:8
+numjoints:7
+numneurons:5
+numconnections:1
+num:1390
+gnum:16
+instances:2
+lifespan:5000.0
+velocity:0.000576406314834057
+distance:2.88203157417029
+vertvel:7.45214074594365e-05
+vertpos:9.66544677415094
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2785
+
+org:
+name:Uwoha Tyheh
+genotype:~
+LX[Sin](,,llXllX[|]llX[|,-2:0.506]llX[|,-3:0.3]LX[|,-4:-0.002],,lX)~
+info:9.09% mutation of 'Umypus Tyheh'
+energy0:1.0
+numparts:8
+numjoints:7
+numneurons:5
+numconnections:3
+num:728
+gnum:8
+instances:2
+lifespan:5000.0
+velocity:0.00336556641729987
+distance:16.8278320864994
+vertvel:2.88317450729211e-05
+vertpos:9.85190748621447
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g1460
+
+org:
+name:Ocehal Kehehe
+genotype:~
+LX[Sin, t:0](lX, , , llMXllX[|, -1:4.857, r:1]llXLX[Sin]lX, , llMXllX[|, -1:-0.475]llX[|, -2:2.114]llX[@, -3:1][|, -4:0.3])~
+info:~
+Crossing over of 'Yrehaz Tehe' (57.14%) and 'Uywum Heheh' (42.86%)~
+energy0:1.0
+numparts:12
+numjoints:11
+numneurons:7
+numconnections:5
+num:1399
+gnum:17
+instances:1
+lifespan:5000.0
+velocity:0.00136828614357844
+distance:6.84143071789222
+vertvel:1.52973208319239e-05
+vertpos:9.80813380425921
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2803
+
+org:
+name:Uhonag Teheh
+genotype:~
+((LX[Sin]), lX, , llMXllX[|, -1:1.717]llX[|, -2:2.114]llX[|, -3:5.039]LX[|, -4:-2.892]X)~
+info:6.74% mutation of 'Etonac Teheh'
+energy0:1.0
+numparts:9
+numjoints:8
+numneurons:5
+numconnections:4
+num:1401
+gnum:17
+instances:1
+lifespan:5000.0
+velocity:0.00218286963729814
+distance:10.9143481864907
+vertvel:1.38877869868818e-05
+vertpos:9.88834493465026
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2807
+
+org:
+name:Ozohar Heheh
+genotype:~
+(LX[Sin]lX,,llMXllX[|,-1:1.759]llX[|,-2:2.114]llX[|,-3:-0.346]LX[|,-4:-2.892,r:1]X)~
+info:5.06% mutation of 'Ifywin Heheh'
+energy0:1.0
+numparts:9
+numjoints:8
+numneurons:5
+numconnections:4
+num:1403
+gnum:17
+instances:1
+lifespan:5000.0
+velocity:0.00759332152947079
+distance:37.9666076473539
+vertvel:3.55923842833842e-05
+vertpos:9.74900944817665
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2811
+
+org:
+name:Upehic Tehe
+genotype:~
+LX[Sin](lX,,,llMXllX[|,-1:2.117]llX[|,-2:2.114,r:1]llX[|,-3:0.3])~
+info:6.56% mutation of 'Owyzaz Tehe'
+energy0:1.0
+numparts:7
+numjoints:6
+numneurons:4
+numconnections:3
+num:1406
+gnum:12
+instances:2
+lifespan:5000.0
+velocity:0.00524046339283087
+distance:26.2023169641544
+vertvel:4.04739952035381e-05
+vertpos:9.88031259943846
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2817
+
+org:
+name:Yseac Keheh
+genotype:~
+LX[Sin](lX,,llXllX[|,-1:4.401]llX[|,-2:0.3,r:1]LX[|,-3:0.232,r:0.919],,lX)~
+info:7.14% mutation of 'Epohik Keheh'
+energy0:1.0
+numparts:8
+numjoints:7
+numneurons:4
+numconnections:3
+num:1409
+gnum:8
+instances:3
+lifespan:5000.0
+velocity:0.00273612430753613
+distance:13.6806215376807
+vertvel:1.4639647875448e-05
+vertpos:9.88548380796
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2823
+
+org:
+name:Umeup Kehehe
+genotype:~
+LX[Sin, t:0](lXllXllX[|, -1:0.7]llX[|, -2:0.5]llX[|, -3:0.3]LX[|, -4:0.1], , , , llMXllX[|]llllX[|], lX)~
+info:~
+Crossing over of 'Ycohul Kehehy' (79.09%) and 'Eohul Keheh' (20.91%)~
+energy0:1.0
+numparts:12
+numjoints:11
+numneurons:7
+numconnections:4
+num:1413
+gnum:16
+instances:1
+lifespan:5000.0
+velocity:0.00206113558765752
+distance:10.3056779382876
+vertvel:5.49403834015365e-06
+vertpos:9.83344074077302
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2831
+
+org:
+name:Asohag Keheh
+genotype:~
+LX[Sin](lX,,llMXllX[|,-1:-3.123]llX[|,-2:2.114,r:0.957]llX[|,-3:-0.093]LlX,,,llMXllX)~
+info:7.14% mutation of 'Ekohim Keheh'
+energy0:1.0
+numparts:10
+numjoints:9
+numneurons:4
+numconnections:3
+num:1420
+gnum:17
+instances:1
+lifespan:5000.0
+velocity:0.00056484019444805
+distance:2.82420097224025
+vertvel:4.70343591159796e-06
+vertpos:9.82002283505299
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2845
+
+org:
+name:Uleas Teheh
+genotype:~
+LX[Sin](,,llXllllX[|,-1:1.279]llX[|,-2:3.023]llX[|,-3:0.119]LX[|,-4:0.3],,lX)~
+info:~
+Crossing over of 'Akead Keheh' (94.81%) and 'Ufeas Teheh' (5.19%)~
+energy0:1.0
+numparts:8
+numjoints:7
+numneurons:5
+numconnections:4
+num:1426
+gnum:12
+instances:1
+lifespan:5000.0
+velocity:0.00474853661578357
+distance:23.7426830789178
+vertvel:3.1243502239327e-05
+vertpos:9.85790374034421
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2857
+
+org:
+name:Awead Teheh
+genotype:~
+(LX[Sin]lX, , llXllcX[|, -1:5.396]llMX[|, -2:0.5]llX[|, -3:0.868]LX[|, -4:0.1], , lX)~
+info:5.88% mutation of 'Eteuh Teheh'
+energy0:1.0
+numparts:9
+numjoints:8
+numneurons:5
+numconnections:4
+num:1297
+gnum:8
+instances:1
+lifespan:5000.0
+velocity:0.00285980996727247
+distance:14.2990498363624
+vertvel:1.25428187132355e-05
+vertpos:9.86742751910121
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2599
+
+org:
+name:Upifag Tehe
+genotype:~
+LX[Sin,t:0](lX,,,llMXllX[|,-1:4.857,r:1]llX[|,-2:2.114]llX[|,-3:0.273])~
+info:7.25% mutation of 'Enyzuh Tehe'
+energy0:1.0
+numparts:7
+numjoints:6
+numneurons:4
+numconnections:3
+num:1430
+gnum:16
+instances:1
+lifespan:5000.0
+velocity:0.00540997507401027
+distance:27.0498753700513
+vertvel:4.33883510928549e-05
+vertpos:9.87990717187245
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2865
+
+org:
+name:Ahuzus Hehyh
+genotype:~
+LX[Sin](lXXllX[|, -1:1.279, p:0.25]llX[|, -2:0.695]llXllX[|]llX[|]llX[|])~
+info:~
+Crossing over of 'Ogohiw Keheh' (57.89%) and 'Owyzaz Tehe' (42.11%)~
+energy0:1.0
+numparts:10
+numjoints:9
+numneurons:6
+numconnections:2
+num:1432
+gnum:12
+instances:1
+lifespan:5000.0
+velocity:0.00205977680869868
+distance:10.2988840434934
+vertvel:4.51038720957232e-05
+vertpos:9.71510965340959
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2869
+
+org:
+name:Asywam Tyhyhy
+genotype:~
+(LX[Sin]lX, llX[|]llX[|], lMXllX[|]llX[|]llX[|]LX[|]X)~
+info:~
+Crossing over of 'Iweam Tehe' (70.87%) and 'Epywaz Heheh' (29.13%)~
+energy0:1.0
+numparts:11
+numjoints:10
+numneurons:7
+numconnections:0
+num:1435
+gnum:16
+instances:2
+lifespan:5000.0
+velocity:1.57174214172924e-05
+distance:0.0785871070864618
+vertvel:1.99219579920573e-07
+vertpos:9.83057653671165
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2875
+
+org:
+name:Agypam Keheh
+genotype:~
+LX[Sin](lX,,llXllX[|,-1:4.008]llX[|,-2:-4.082]llX[|,-3:3.93]LX[|,-4:0.1],,lX)~
+info:5.26% mutation of 'Apeit Keheh'
+energy0:1.0
+numparts:9
+numjoints:8
+numneurons:5
+numconnections:4
+num:1439
+gnum:3
+instances:1
+lifespan:5000.0
+velocity:0.000866626701333541
+distance:4.33313350666771
+vertvel:9.70418634356491e-06
+vertpos:9.8607138174815
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2883
+
+org:
+name:Ehypar Tehyh
+genotype:~
+LX[Sin, f0:0.017](, , llXllX[|, -1:4.012]lllXlX[|]LX[|, r:1], , lX)~
+info:7.46% mutation of 'Olypat Tehyh'
+energy0:1.0
+numparts:8
+numjoints:7
+numneurons:4
+numconnections:1
+num:1440
+gnum:16
+instances:1
+lifespan:5000.0
+velocity:0.00312584093666524
+distance:15.6292046833262
+vertvel:0.000137538351091463
+vertpos:9.6555297429698
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2885
+
+org:
+name:Eheuz Kehes
+genotype:~
+LX[Sin,t:0](,,llX[N,-1:1]lllX[|,-2:-1.66]llX[|,-3:2.295]llX[|,-4:0.3]LX[|,-5:0.402],X,lX)~
+info:1.14% mutation of 'Okohuz Teheh'
+energy0:1.0
+numparts:9
+numjoints:8
+numneurons:6
+numconnections:5
+num:1356
+gnum:8
+instances:2
+lifespan:5000.0
+velocity:0.00187464295446008
+distance:9.37321477230038
+vertvel:2.2610859788289e-05
+vertpos:9.86026078728432
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2717
+
+org:
+name:Ugohum Hyheh
+genotype:~
+LX[Sin,t:0.543](lX[G]llX[|,-2:0.24]lllMXllX[|]llXlX)~
+info:10.42% mutation of 'Afohil Hyheh'
+energy0:1.0
+numparts:8
+numjoints:7
+numneurons:4
+numconnections:1
+num:1443
+gnum:13
+instances:1
+lifespan:5000.0
+velocity:0.00325131767151884
+distance:16.2565883575942
+vertvel:0.000114378233898638
+vertpos:9.53527929095412
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2891
+
+org:
+name:Irywak Heheh
+genotype:~
+(LX[Sin]lX,,llMXllX[|,-1:1.759]llX[|,-2:3.642]llX[|,-3:0.3]LX[|,-4:-2.892]X)~
+info:6.58% mutation of 'Epywaz Heheh'
+energy0:1.0
+numparts:9
+numjoints:8
+numneurons:5
+numconnections:4
+num:1444
+gnum:16
+instances:1
+lifespan:5000.0
+velocity:0.0121901753191764
+distance:60.9508765958822
+vertvel:1.41508255121067e-05
+vertpos:9.89034523995009
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2893
+
+org:
+name:Owipuc Kyhehe
+genotype:~
+LX[Sin, t:0](lX, , , lLQX[Sin], , llXllX[|, -1:1.279]llX[|, -2:3.023]llX[|, -3:0.3]LX[|, -4:0.3]X[|]llX[|])~
+info:~
+Crossing over of 'Yzypuf Teheh' (40.52%) and 'Upifag Tehe' (59.48%)~
+energy0:1.0
+numparts:11
+numjoints:10
+numneurons:8
+numconnections:4
+num:1445
+gnum:17
+instances:1
+lifespan:5000.0
+velocity:0.000371563086996462
+distance:1.85781543498231
+vertvel:3.21755507584349e-06
+vertpos:9.83348376243217
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2895
+
+org:
+name:Ypocis Tehehe
+genotype:~
+LFX[Sin, f0:0.0628319]((, , llXllX[|, -1:1.426]llMX[@,3:1][|, -3:-1.891]llX[|, -4:0.332]LXLX[Sin, f0:0.0628319]lX), , llMXllX[|, -1:1.279, p:0.25]llX[|, -2:3.121]llX[|, -3:0.3]LX[|, -4:0.652], , )~
+info:1.03% mutation of 'Itocih Tehehe'
+energy0:1.0
+numparts:14
+numjoints:13
+numneurons:10
+numconnections:8
+num:1446
+gnum:16
+instances:1
+lifespan:5000.0
+velocity:0.00293520039709363
+distance:14.6760019854682
+vertvel:0.000801692869362802
+vertpos:8.39901706717407
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2897
+
+org:
+name:Iwohak Teheh
+genotype:~
+(LX[Sin]lX, , llXllcX[|, -1:4.257]llMXlX[|]LlX[|, -3:0.868]LX[|, -4:0.1,p:0.25], , lX)~
+info:8.86% mutation of 'Yneig Teheh'
+energy0:1.0
+numparts:10
+numjoints:9
+numneurons:5
+numconnections:3
+num:1448
+gnum:10
+instances:1
+lifespan:5000.0
+velocity:0.00233146324382099
+distance:11.657316219105
+vertvel:1.05392129013428e-05
+vertpos:9.86069100331948
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2901
+
+org:
+name:Ufeug Teheh
+genotype:~
+LX[Sin](,,llX[N,-1:0.076]lllX[|,-2:-0.802]llX[|,-3:2.295]llX[|,-4:0.271]LX[|,-5:0.1],,lX)~
+info:6.82% mutation of 'Oseac Teheh'
+energy0:1.0
+numparts:8
+numjoints:7
+numneurons:6
+numconnections:5
+num:1449
+gnum:12
+instances:1
+lifespan:5000.0
+velocity:0.0028708623633512
+distance:14.354311816756
+vertvel:2.46158921279129e-05
+vertpos:9.86547644314975
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2903
+
+org:
+name:Inohir Keheh
+genotype:~
+LX[Sin,f0:0.0628319](lX,,lllMXllX[|,-1:5.468,p:0.25]llX[|]llX[|,-3:0.3]LX[|,-4:-2.292,r:1],,lX)~
+info:5.26% mutation of 'Umohir Keheh'
+energy0:1.0
+numparts:9
+numjoints:8
+numneurons:5
+numconnections:3
+num:1453
+gnum:12
+instances:2
+lifespan:5000.0
+velocity:0.00449849430558612
+distance:22.4924715279306
+vertvel:1.44354797370822e-05
+vertpos:9.89081918920148
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2911
+
+org:
+name:Esehur Tehe
+genotype:~
+LX[Sin](lX,,,llMXllX[|,-1:-0.713]llX[|]llX[|,-3:0.3])~
+info:11.54% mutation of 'Ugehit Tehe'
+energy0:1.0
+numparts:7
+numjoints:6
+numneurons:4
+numconnections:2
+num:1455
+gnum:13
+instances:1
+lifespan:5000.0
+velocity:0.00408096997973371
+distance:20.4048498986685
+vertvel:0.000170357631095772
+vertpos:9.72969038643238
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2915
+
+org:
+name:Ufeas Keheh
+genotype:~
+LX[Sin](liX,,llXllX[|,-1:0.7]llX[|,-2:0.674]llX[|,-3:0.3]LX[|,-4:0.1],,lX)~
+info:2.74% mutation of 'Edeid Keheh'
+energy0:1.0
+numparts:9
+numjoints:8
+numneurons:5
+numconnections:4
+num:1457
+gnum:2
+instances:1
+lifespan:5000.0
+velocity:0.00232481344882424
+distance:11.6240672441212
+vertvel:1.40183890333443e-05
+vertpos:9.88106885630855
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2919
+
+org:
+name:Aypic Teheh
+genotype:~
+LX[Sin](lX, , llMXllX[|, -1:4.215]llX[|, -2:2.114, r:0.93, r:1]lXllX[|]lXX)~
+info:~
+Crossing over of 'Okei Keheh' (77.22%) and 'Ozear Tehe' (22.78%)~
+energy0:1.0
+numparts:10
+numjoints:9
+numneurons:4
+numconnections:2
+num:1460
+gnum:13
+instances:1
+lifespan:5000.0
+velocity:0.00143432695139231
+distance:7.17163475696155
+vertvel:0.000270589087990293
+vertpos:9.34304976976446
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2925
+
+org:
+name:Odeah Tyheh
+genotype:~
+LX[Sin,f0:0.017](,,llXllX[|]llMX[|,-2:3.933]llX[|,-3:0.332]LX[|,-4:-1.481],,lX)~
+info:10.23% mutation of 'Oweim Teheh'
+energy0:1.0
+numparts:8
+numjoints:7
+numneurons:5
+numconnections:3
+num:1461
+gnum:16
+instances:1
+lifespan:5000.0
+velocity:0.00353464628901692
+distance:17.6732314450846
+vertvel:5.76951628445261e-05
+vertpos:9.83783434953551
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2927
+
+org:
+name:Osumik Tehe
+genotype:~
+LX[Sin,t:0](lX,,,llMXllX[|,-1:4.857,r:1]llX[|,-2:1.495]llX[|,-3:0.273])~
+info:7.04% mutation of 'Upifag Tehe'
+energy0:1.0
+numparts:7
+numjoints:6
+numneurons:4
+numconnections:3
+num:1463
+gnum:17
+instances:1
+lifespan:5000.0
+velocity:0.00551625752572433
+distance:27.5812876286217
+vertvel:4.24453903114998e-05
+vertpos:9.87918210031781
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2931
+
+org:
+name:Owypip Keheh
+genotype:~
+LX[Sin](lX, , llMXllX[|, -1:2.015]llX[|, -2:1.295, r:1]llX[|, -3:0.971]LlX[*], , llXllX[|]lllMXXllX)~
+info:3.09% mutation of 'Ymypur Keheh'
+energy0:1.0
+numparts:13
+numjoints:12
+numneurons:6
+numconnections:3
+num:1464
+gnum:16
+instances:1
+lifespan:5000.0
+velocity:0.0015030000928832
+distance:7.515000464416
+vertvel:1.93086649384153e-05
+vertpos:9.79558330518709
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2933
+
+org:
+name:Ykeiw Hyheh
+genotype:~
+(LX[Sin]lXllX[|]llMXX[|, -2:1.208]llX[|, -3:0.3]LX[|, -4:-3.375], , lX)~
+info:7.14% mutation of 'Itea Hyheh'
+energy0:1.0
+numparts:9
+numjoints:8
+numneurons:5
+numconnections:3
+num:1466
+gnum:12
+instances:1
+lifespan:5000.0
+velocity:0.0157500703906689
+distance:78.7503519533445
+vertvel:5.82397678819191e-05
+vertpos:9.86639978187343
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2937
+
+org:
+name:Ycypur Teheh
+genotype:~
+LX[Sin](, , llX[Sin, t:0]lXllX[|, -1:0.7]llX[|, -2:2.548]llX[|, -3:0.3][|, -4:1.182,r:1], , lX)~
+info:4.40% mutation of 'Uhohad Teheh'
+energy0:1.0
+numparts:8
+numjoints:7
+numneurons:6
+numconnections:4
+num:1452
+gnum:16
+instances:2
+lifespan:5000.0
+velocity:0.004269896689436
+distance:21.34948344718
+vertvel:2.33335388748243e-05
+vertpos:9.88820655880585
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2909
+
+org:
+name:Yleut Kehes
+genotype:~
+LFX[Sin,f0:0.0628319](,,llX[G]llX[|,-2:5.173]llMX[|,-3:0.5]llX[|,-4:0.813]LqX[|,-5:-1.481],X,lX)~
+info:5.21% mutation of 'Olypuc Kehes'
+energy0:1.0
+numparts:9
+numjoints:8
+numneurons:6
+numconnections:4
+num:1467
+gnum:16
+instances:1
+lifespan:5000.0
+velocity:0.00196221324602146
+distance:9.81106623010732
+vertvel:1.82388830590579e-05
+vertpos:9.87470990301207
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2939
+
+org:
+name:Oteis Teheh
+genotype:~
+(LX[Sin]lX, , llXllcX[|, -1:2.918]llMX[|, -2:0.5]llX[|, -3:0.868]LX[|, -4:0.1], , lX)~
+info:5.88% mutation of 'Awead Teheh'
+energy0:1.0
+numparts:9
+numjoints:8
+numneurons:5
+numconnections:4
+num:1468
+gnum:9
+instances:1
+lifespan:5000.0
+velocity:0.00289330232385736
+distance:14.4665116192868
+vertvel:1.26981622061628e-05
+vertpos:9.86855150044288
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2941
+
+org:
+name:Oguzis Kehyh
+genotype:~
+LX[Sin, t:0](lX, , , llMXllX[|, -1:4.857, r:1]lFX, , llXllX[|]llX[|]llX[|])~
+info:~
+Crossing over of 'Enyzuh Tehe' (83.13%) and 'Ogohid Kyheh' (16.87%)~
+energy0:1.0
+numparts:10
+numjoints:9
+numneurons:5
+numconnections:1
+num:1469
+gnum:16
+instances:1
+lifespan:5000.0
+velocity:0.00160472374758426
+distance:8.02361873792129
+vertvel:1.06402910223053e-05
+vertpos:9.87252307078311
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2943
+
+org:
+name:Ycohan Keheh
+genotype:~
+LX[Sin](lX, , llMXllX[|, -1:2.015]llX[|, -2:2.659, r:1]llX[|, -3:0.3]LlX, , llXllX[|]lllMX[G]XllX)~
+info:3.16% mutation of 'Ilypum Keheh'
+energy0:1.0
+numparts:13
+numjoints:12
+numneurons:6
+numconnections:3
+num:1470
+gnum:16
+instances:1
+lifespan:5000.0
+velocity:0.00384637027438429
+distance:19.2318513719214
+vertvel:1.46604153878567e-05
+vertpos:9.87746045917716
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2945
+
+org:
+name:Upegak Heheh
+genotype:~
+(LX[Sin]lX,,llMXllX[|,-1:-0.475]llX[|,-2:2.114]llX[|,-3:0.3]LX[|,-4:-5.05]wX)~
+info:7.69% mutation of 'Ogotip Heheh'
+energy0:1.0
+numparts:9
+numjoints:8
+numneurons:5
+numconnections:4
+num:1471
+gnum:16
+instances:1
+lifespan:5000.0
+velocity:0.00461619962263632
+distance:23.0809981131816
+vertvel:9.23025032494103e-06
+vertpos:9.89835854088174
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2947
+
+org:
+name:Uleas Teheh
+genotype:~
+LX[Sin]C(,,llX[N,-1:0.076]lllX[|,-2:1.326]llX[|,-3:2.295]llX[|,-4:0.271]LX[|,-5:0.1],,lX)~
+info:1.14% mutation of 'Oseac Teheh'
+energy0:1.0
+numparts:8
+numjoints:7
+numneurons:6
+numconnections:5
+num:1473
+gnum:12
+instances:1
+lifespan:5000.0
+velocity:0.00513240436157136
+distance:25.6620218078568
+vertvel:1.52495817676101e-05
+vertpos:9.89158241021237
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2951
+
+org:
+name:Amohic Hyheh
+genotype:~
+(LX[Sin]lXllX[|]llMXX[|, -2:3.128]llX[|, -3:0.3]LX[|, -4:-4.558], , lX)~
+info:8.45% mutation of 'Ileud Hyheh'
+energy0:1.0
+numparts:9
+numjoints:8
+numneurons:5
+numconnections:3
+num:1474
+gnum:13
+instances:1
+lifespan:5000.0
+velocity:0.0109511171695808
+distance:54.7555858479042
+vertvel:9.2150397780005e-05
+vertpos:9.79606711657831
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2953
+
+org:
+name:Yhypun Teheh
+genotype:~
+LX[Sin](,,llXllX[|,-1:1.279]llX[|]llX[|]LX[|,-4:-1.865,r:1],,lX)~
+info:9.52% mutation of 'Osean Teheh'
+energy0:1.0
+numparts:8
+numjoints:7
+numneurons:5
+numconnections:2
+num:1475
+gnum:13
+instances:1
+lifespan:5000.0
+velocity:0.000603678286378164
+distance:3.01839143189082
+vertvel:1.88974498230923e-05
+vertpos:9.81880206416417
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2955
+
+org:
+name:Uypag Kehehy
+genotype:~
+LX[Sin, f0:0.0628319](lX[|, -1:1.233]llX[|, -2:1.295, r:1]llX[|, -3:0.3]LlX, , llXXX[|][|, p:0.25]llX[|]llX[|]LX[|], , lX)~
+info:~
+Crossing over of 'Imohiz Keheh' (60.54%) and 'Edypul Keheh' (39.46%)~
+energy0:1.0
+numparts:13
+numjoints:12
+numneurons:9
+numconnections:3
+num:1476
+gnum:14
+instances:1
+lifespan:5000.0
+velocity:0.00115321187213431
+distance:5.76605936067155
+vertvel:6.1986344308206e-06
+vertpos:9.84285903852386
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2957
+
+org:
+name:Izuma Tehe
+genotype:~
+LX[Sin,t:0](lX,,,llMXllX[|,-1:4.857,r:0.974]llX[|,-2:1.495]llX[|,-3:0.273])~
+info:7.04% mutation of 'Osumik Tehe'
+energy0:1.0
+numparts:7
+numjoints:6
+numneurons:4
+numconnections:3
+num:1477
+gnum:18
+instances:1
+lifespan:5000.0
+velocity:0.00552429506454566
+distance:27.6214753227283
+vertvel:4.1926163078934e-05
+vertpos:9.87949730705735
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2959
+
+org:
+name:Yfypur Teheh
+genotype:~
+LX[Sin](, , llX[Sin, t:0]lXllX[|, -1:3.925]llX[|, -2:2.548]llX[|, -3:0.3][|, -4:1.182,r:1], , lX)~
+info:5.26% mutation of 'Ycypur Teheh'
+energy0:1.0
+numparts:8
+numjoints:7
+numneurons:6
+numconnections:4
+num:1478
+gnum:17
+instances:1
+lifespan:5000.0
+velocity:0.00432392181712272
+distance:21.6196090856136
+vertvel:2.31551202581645e-05
+vertpos:9.88832169385956
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2961
+
+org:
+name:Iwohad Tyheh
+genotype:~
+LX[Sin](,,llXllX[|]llX[|,-2:3.766]llX[|,-3:2.235]LrX[|,-4:0.052],,lX)~
+info:2.94% mutation of 'Ireil Tyheh'
+energy0:1.0
+numparts:8
+numjoints:7
+numneurons:5
+numconnections:3
+num:1480
+gnum:10
+instances:1
+lifespan:5000.0
+velocity:0.00278859639735843
+distance:13.9429819867922
+vertvel:3.19856319828506e-05
+vertpos:9.78723938775795
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2965
+
+org:
+name:Ysohip Kyheh
+genotype:~
+LX[Sin](lFX,,llXllX[|]llXlMX[|,-2:-2.251]llX[|,-3:-2.528]LX[|,-4:-3.288],,lX)~
+info:8.11% mutation of 'Ogohid Kyheh'
+energy0:1.0
+numparts:10
+numjoints:9
+numneurons:5
+numconnections:3
+num:1481
+gnum:14
+instances:1
+lifespan:5000.0
+velocity:0.00338143887075642
+distance:16.9071943537821
+vertvel:1.42529066853317e-05
+vertpos:9.88175861872762
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2967
+
+org:
+name:Uteup Keheh
+genotype:~
+LX[Sin](lX,,llXllX[|,-1:4.008]llX[|,-2:-4.082]llX[|,-3:0.3]LX,,lX)~
+info:13.16% mutation of 'Apeit Keheh'
+energy0:1.0
+numparts:9
+numjoints:8
+numneurons:4
+numconnections:3
+num:1482
+gnum:3
+instances:1
+lifespan:5000.0
+velocity:0.000496431233553949
+distance:2.48215616776975
+vertvel:9.03761446950604e-06
+vertpos:9.82977167490151
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2969
+
+org:
+name:Yonul Heheh
+genotype:~
+(LX[Sin]lX,,llMXllX[|,-1:1.759]llX[|,-2:2.114]llX[|,-3:0.3]LX[|,-4:-0.94]X)~
+info:7.89% mutation of 'Epywaz Heheh'
+energy0:1.0
+numparts:9
+numjoints:8
+numneurons:5
+numconnections:4
+num:1483
+gnum:16
+instances:1
+lifespan:5000.0
+velocity:0.0104006516736327
+distance:52.0032583681637
+vertvel:1.41507412376578e-05
+vertpos:9.89073023557291
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2971
+
+org:
+name:Utohil Heheh
+genotype:~
+(LX[Sin]lX,,llMXllX[|,-1:1.064]llX[|,-2:2.114]llX[|,-3:-0.346]LX[|,-4:-2.892,r:1]X)~
+info:6.02% mutation of 'Ozohar Heheh'
+energy0:1.0
+numparts:9
+numjoints:8
+numneurons:5
+numconnections:4
+num:1485
+gnum:18
+instances:1
+lifespan:5000.0
+velocity:0.00949090325550692
+distance:47.4545162775346
+vertvel:4.86162274031933e-05
+vertpos:9.71680033689499
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2975
+
+org:
+name:Odeul Keheh
+genotype:~
+LX[Sin](lX,,llMXllX[|,-1:4.174]llX[|,-2:2.399,r:0.93]llX[|,-3:0.3]LlX,,llX[N,-4:1]X)~
+info:5.95% mutation of 'Yceuh Keheh'
+energy0:1.0
+numparts:10
+numjoints:9
+numneurons:5
+numconnections:4
+num:1384
+gnum:14
+instances:3
+lifespan:5000.0
+velocity:0.00357103957575873
+distance:17.8551978787936
+vertvel:1.25282143453192e-05
+vertpos:9.87440464918235
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2773
+
+org:
+name:Yneip Teheh
+genotype:~
+LX[Sin](,,llXllllX[|,-1:1.279]llX[|,-2:8.346]llX[|,-3:0.119]LX[|,-4:0.3],,lX)~
+info:6.49% mutation of 'Uleas Teheh'
+energy0:1.0
+numparts:8
+numjoints:7
+numneurons:5
+numconnections:4
+num:1487
+gnum:13
+instances:1
+lifespan:5000.0
+velocity:0.00471130984634151
+distance:23.5565492317075
+vertvel:3.04311175421613e-05
+vertpos:9.85210889228799
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2979
+
+org:
+name:Upyzum Tehe
+genotype:~
+LX[Sin,t:0](lX,,,llMXllX[|,-1:5.014]llX[|,-2:2.114]llX[|,-3:0.3])~
+info:7.69% mutation of 'Atyzuk Tehe'
+energy0:1.0
+numparts:7
+numjoints:6
+numneurons:4
+numconnections:3
+num:1489
+gnum:15
+instances:1
+lifespan:5000.0
+velocity:0.00541769767202738
+distance:27.0884883601369
+vertvel:5.33615102169257e-05
+vertpos:9.87432633831117
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2983
+
+org:
+name:Oesik Keheheh
+genotype:~
+LFX[Sin, f0:0.0628319](, , llXllqX[|, -1:3.209]llMX[@, 3:0.978][|, -3:-1.891]llX[|, -4:0.332]LXLX[Sin, f0:0.0628319]lX, , llMXllX[|, -1:1.279, p:0.25]lllMXX[|, -2:2.114]llX[|, -3:0.3]LX[|, -4:-3.375], llX[|]LX[|], , )~
+info:1.39% mutation of 'Utesuw Keheheh'
+energy0:1.0
+numparts:17
+numjoints:16
+numneurons:12
+numconnections:8
+num:1490
+gnum:16
+instances:1
+lifespan:5000.0
+velocity:0.00256930525575366
+distance:12.8465262787683
+vertvel:0.000886665335898996
+vertpos:8.50602203745893
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2985
+
+org:
+name:Edeguc Hyhy
+genotype:(LXllX[|]llX[|]LX[|]X)
+info:~
+Crossing over of 'Epywaz Heheh' (95.92%) and 'Ikohum Keheh' (4.08%)~
+energy0:1.0
+numparts:6
+numjoints:5
+numneurons:3
+numconnections:0
+num:1491
+gnum:16
+instances:1
+lifespan:5000.0
+velocity:6.07877430551556e-07
+distance:0.00303938715275778
+vertvel:2.10741477399523e-08
+vertpos:9.8118759330718
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2987
+
+org:
+name:Unocug Tehehe
+genotype:~
+LFX[Sin, f0:0.0628319]((, , llXllX[|, -1:1.426]llMX[@,3:1][|, -3:-1.891]llX[|, -4:0.332]LXLX[Sin, f0:0.0628319]lX), , llMXllX[|, -1:0.606, p:0.25]llX[|, -2:3.121]llX[|, -3:0.3]LX[|, -4:0.652], , )~
+info:2.55% mutation of 'Ypocis Tehehe'
+energy0:1.0
+numparts:14
+numjoints:13
+numneurons:10
+numconnections:8
+num:1493
+gnum:17
+instances:1
+lifespan:5000.0
+velocity:0.0033062343465514
+distance:16.531171732757
+vertvel:0.000974508820391983
+vertpos:8.14154466974165
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2992
+
+org:
+name:Ikohit Heheh
+genotype:~
+(LX[Sin]lX,,llMXllX[|,-1:1.064]llX[|,-2:4.17]llX[|,-3:-0.346]LX[|,-4:-2.892,r:1]X)~
+info:6.02% mutation of 'Utohil Heheh'
+energy0:1.0
+numparts:9
+numjoints:8
+numneurons:5
+numconnections:4
+num:1494
+gnum:19
+instances:1
+lifespan:5000.0
+velocity:0.0078029776926889
+distance:39.0148884634445
+vertvel:3.8774235436598e-05
+vertpos:9.7749500625837
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2994
+
+org:
+name:Eliniw Heheh
+genotype:~
+LX[Sin, t:0]lMXllX[|, -1:1.279, p:0.25]llX[|, -2:0.695]llX[|, -3:0.3]LllXlX~
+info:~
+Crossing over of 'Afohil Hyheh' (23.94%) and 'Ikohum Keheh' (76.06%)~
+energy0:1.0
+numparts:8
+numjoints:7
+numneurons:4
+numconnections:3
+num:1495
+gnum:13
+instances:1
+lifespan:5000.0
+velocity:0.0122232747740896
+distance:61.116373870448
+vertvel:1.55146693494569e-05
+vertpos:9.8960911576738
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2996
+
+org:
+name:Ofeid Keheh
+genotype:~
+LX[Sin](lX,,llMXllX[|,-1:4.215]llX[|,-2:2.324,r:0.93]llX[|,-3:-2.323]LlX,,llXX)~
+info:6.41% mutation of 'Orear Keheh'
+energy0:1.0
+numparts:10
+numjoints:9
+numneurons:4
+numconnections:3
+num:1496
+gnum:16
+instances:1
+lifespan:5000.0
+velocity:0.00145988657903526
+distance:7.29943289517631
+vertvel:1.18322258653397e-05
+vertpos:9.87527579791134
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2998
+
+org:
+name:Ereim Dyhehe
+genotype:~
+LX[Sin](, , llX[N]lllX[Sin, f0:0.0628319], , llXllX[|, -1:3.209]llX, , llXlllX[|, -3:4.835]llX[|, -4:0.592, r:1]LX[|, -5:0.1], , lX)~
+info:7.04% mutation of 'Ypeah Dehehe'
+energy0:1.0
+numparts:12
+numjoints:11
+numneurons:7
+numconnections:4
+num:1497
+gnum:15
+instances:1
+lifespan:5000.0
+velocity:0.000542297777566669
+distance:2.71148888783335
+vertvel:9.7090045997966e-06
+vertpos:9.85305466346015
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g3000
+
+org:
+name:Yfuzat Tehe
+genotype:~
+LX[Sin,t:0](lX,,,llMXllX[|,-1:4.857]llX[|,-2:2.114]llX[|])~
+info:10.77% mutation of 'Atyzuk Tehe'
+energy0:1.0
+numparts:7
+numjoints:6
+numneurons:4
+numconnections:2
+num:1500
+gnum:15
+instances:1
+lifespan:5000.0
+velocity:0.00106701566425963
+distance:5.33507832129815
+vertvel:3.6707411302072e-05
+vertpos:9.80222987683312
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g3006
+
+org:
+name:Ufeil Teheh
+genotype:~
+LX[Sin](,,llX[N,-1:0.076]lllX[|,-2:1.15]llX[|,-3:2.295]llX[|,-4:0.271]LX[|,-5:0.1],,lX)~
+info:6.74% mutation of 'Ufeug Teheh'
+energy0:1.0
+numparts:8
+numjoints:7
+numneurons:6
+numconnections:5
+num:1501
+gnum:13
+instances:1
+lifespan:5000.0
+velocity:0.00421892157815034
+distance:21.0946078907517
+vertvel:2.53916877556655e-05
+vertpos:9.83567827811475
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g3008
+
+org:
+name:Isein Teheh
+genotype:~
+(LX[Sin]lX, , llXllcX[|, -1:5.396]llMX[|, -2:0.5]llX[|, -3:0.291]LX[|, -4:0.1], , lX)~
+info:5.88% mutation of 'Awead Teheh'
+energy0:1.0
+numparts:9
+numjoints:8
+numneurons:5
+numconnections:4
+num:1502
+gnum:9
+instances:1
+lifespan:5000.0
+velocity:0.00509457320321072
+distance:25.4728660160536
+vertvel:1.75055569182977e-05
+vertpos:9.88209260158659
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g3010
+
+org:
+name:Ecypaz Teheh
+genotype:~
+LX[Sin](, , llX[Sin, t:0]lXllX[|, -1:0.7]llX[|, -2:2.706]llX[|, -3:0.3][|, -4:1.182,r:1], , lX)~
+info:5.26% mutation of 'Ycypur Teheh'
+energy0:1.0
+numparts:8
+numjoints:7
+numneurons:6
+numconnections:4
+num:1503
+gnum:17
+instances:1
+lifespan:5000.0
+velocity:0.00437763720015763
+distance:21.8881860007881
+vertvel:2.32427977711879e-05
+vertpos:9.88862467833112
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g3012
+
+org:
+name:Yhywi Heheh
+genotype:~
+(LX[Sin]lX,,llMXllX[|,-1:1.759]llX[|,-2:4.667]llX[|,-3:-0.346]LX[|,-4:-2.892]X)~
+info:6.33% mutation of 'Ifywin Heheh'
+energy0:1.0
+numparts:9
+numjoints:8
+numneurons:5
+numconnections:4
+num:1504
+gnum:17
+instances:1
+lifespan:5000.0
+velocity:0.00609666404009201
+distance:30.4833202004601
+vertvel:2.71615617091125e-05
+vertpos:9.79266256674383
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g3014
+
+org:
+name:Odehaz Tehe
+genotype:~
+LX[Sin](lX,,,llMXllX[|,-1:2.117]llX[|,-2:-1.603,r:1]llX[|,-3:0.3])~
+info:9.23% mutation of 'Upehic Tehe'
+energy0:1.0
+numparts:7
+numjoints:6
+numneurons:4
+numconnections:3
+num:1506
+gnum:13
+instances:1
+lifespan:5000.0
+velocity:0.000482163352460746
+distance:2.41081676230373
+vertvel:4.52525971443254e-05
+vertpos:9.69936733928381
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g3018
+
+org:
+name:Ikohuk Keheh
+genotype:~
+LX[Sin,f0:0.0628319](lX,,llMXllX[|,-1:1.279,p:0.25]llX[|,-2:0.695]llX[|,-3:0.3]LX[|,-4:-1.428],,lX)~
+info:6.06% mutation of 'Ikohum Keheh'
+energy0:1.0
+numparts:9
+numjoints:8
+numneurons:5
+numconnections:4
+num:1507
+gnum:9
+instances:1
+lifespan:5000.0
+velocity:0.0060391513131434
+distance:30.195756565717
+vertvel:1.43914685558947e-05
+vertpos:9.89284156469372
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g3020
+
+org:
+name:Arywap Heheh
+genotype:~
+(LX[Sin]lX,,llMXllX[|,-1:0.497]llX[|,-2:3.642]llX[|,-3:0.3]LX[|,-4:-2.892]X)~
+info:6.58% mutation of 'Irywak Heheh'
+energy0:1.0
+numparts:9
+numjoints:8
+numneurons:5
+numconnections:4
+num:1508
+gnum:17
+instances:1
+lifespan:5000.0
+velocity:0.0117488775100345
+distance:58.7443875501725
+vertvel:1.41508387537684e-05
+vertpos:9.88962973740674
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g3022
+
+org:
+name:Ameic Teheh
+genotype:~
+LX[Sin](,,llXllllX[|,-1:1.279]llX[|,-2:3.023]llX[|,-3:1.246]LX[|,-4:0.3],,lX)~
+info:6.49% mutation of 'Uleas Teheh'
+energy0:1.0
+numparts:8
+numjoints:7
+numneurons:5
+numconnections:4
+num:1509
+gnum:13
+instances:1
+lifespan:5000.0
+velocity:0.00418566606252539
+distance:20.928330312627
+vertvel:3.56151132892823e-05
+vertpos:9.79697190985688
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g3024
+
+org:
+name:Ylypuz Teheh
+genotype:~
+LX[Sin](,,llX[N,-1:-0.481]lllX[|]llX[|,-3:2.295]llX[|,-4:1.102,r:0.985]LX[|,-5:0.1],,lX)~
+info:6.90% mutation of 'Iypih Teheh'
+energy0:1.0
+numparts:8
+numjoints:7
+numneurons:6
+numconnections:4
+num:1510
+gnum:11
+instances:1
+lifespan:5000.0
+velocity:0.00360391851310058
+distance:18.0195925655029
+vertvel:4.31355249955374e-05
+vertpos:9.78160681319064
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g3026
+
+org:
+name:Ofohid Kyhes
+genotype:~
+LFX[Sin, f0:0.0628319](, , llX[G]llXllX[|, -1:1.064]llllX[|]LqX[|], X, lX)~
+info:~
+Crossing over of 'Elohi Kehes' (79.31%) and 'Ikohit Heheh' (20.69%)~
+energy0:1.0
+numparts:9
+numjoints:8
+numneurons:5
+numconnections:1
+num:1511
+gnum:20
+instances:1
+lifespan:5000.0
+velocity:1.61451737904258e-05
+distance:0.0807258689521288
+vertvel:9.79680741131972e-07
+vertpos:9.80361295452521
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g3028
+
+org:
+name:Umohir Heheh
+genotype:~
+(LX[Sin]X llXllX[|, -1:7.476]llMX[|, -2:2.507]llX[|, -3:0.332]LX[|, -4:1.182], , lX)~
+info:1.18% mutation of 'Aohum Teheh'
+energy0:1.0
+numparts:9
+numjoints:8
+numneurons:5
+numconnections:4
+num:1512
+gnum:17
+instances:1
+lifespan:5000.0
+velocity:0.00848973086142412
+distance:42.4486543071206
+vertvel:1.44885429539645e-05
+vertpos:9.8902640381909
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g3030
+
+org:
+name:Alohif Keheh
+genotype:~
+LX[Sin,f0:0.0628319](lX,,llMXllX[|,-1:4.595,p:0.25]llX[|,-2:0.695]llX[|,-3:0.3]LX[|,-4:-1.428],,lX)~
+info:5.05% mutation of 'Ikohuk Keheh'
+energy0:1.0
+numparts:9
+numjoints:8
+numneurons:5
+numconnections:4
+num:1515
+gnum:10
+instances:1
+lifespan:5000.0
+velocity:0.00602204333168569
+distance:30.1102166584284
+vertvel:1.44211490334353e-05
+vertpos:9.89277890991181
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g3036
+
+org:
+name:Usypuk Teheh
+genotype:~
+LX[Sin](,,llXllX[|,-1:2.204]llX[|,-2:5.636]llX[|]LX[|,-4:3.983],,lX)~
+info:7.35% mutation of 'Owypac Teheh'
+energy0:1.0
+numparts:8
+numjoints:7
+numneurons:5
+numconnections:3
+num:1516
+gnum:10
+instances:1
+lifespan:5000.0
+velocity:0.000870832878893484
+distance:4.35416439446742
+vertvel:1.63423619286508e-05
+vertpos:9.77515131656392
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g3038
+
+org:
+name:Aypir Teheh
+genotype:~
+LX[Sin](, , llX[Sin, t:0]lXllX[|, -1:3.925]llX[|, -2:2.548,r:1]llX[|, -3:0.3][|, -4:1.182,r:1], , lX)~
+info:4.12% mutation of 'Yfypur Teheh'
+energy0:1.0
+numparts:8
+numjoints:7
+numneurons:6
+numconnections:4
+num:1517
+gnum:18
+instances:1
+lifespan:5000.0
+velocity:0.00432490793973496
+distance:21.6245396986748
+vertvel:2.31564387341098e-05
+vertpos:9.88843101349378
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g3040
+
+org:
+name:Ydeuh Keheh
+genotype:~
+LX[Sin](lX,,llMXllX[|,-1:4.725]llX[|,-2:2.399,r:0.93]llX[|,-3:0.3]LlX,,llX[N,-4:1]X)~
+info:5.95% mutation of 'Odeul Keheh'
+energy0:1.0
+numparts:10
+numjoints:9
+numneurons:5
+numconnections:4
+num:1518
+gnum:15
+instances:2
+lifespan:5000.0
+velocity:0.003553858579744
+distance:17.76929289872
+vertvel:1.24106429455168e-05
+vertpos:9.87404425692342
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g3042
+
+org:
+name:Izypud Hyhyh
+genotype:(LX[Sin]lXllX[|]llMXXllXllX[|]LX[|], , lX)
+info:~
+Crossing over of 'Ikead Hyheh' (93.44%) and 'Apywin Heheh' (6.56%)~
+energy0:1.0
+numparts:10
+numjoints:9
+numneurons:4
+numconnections:0
+num:1519
+gnum:17
+instances:1
+lifespan:5000.0
+velocity:2.09288438989865e-06
+distance:0.0104644219494933
+vertvel:5.48030427758306e-09
+vertpos:9.82766806419292
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g3044
+
+org:
+name:Ylohuc Heheh
+genotype:~
+(LX[Sin]X llXllX[|, -1:7.476]llMX[|, -2:4.014]llX[|, -3:0.332]LX[|, -4:1.182], , lX)~
+info:5.95% mutation of 'Umohir Heheh'
+energy0:1.0
+numparts:9
+numjoints:8
+numneurons:5
+numconnections:4
+num:1520
+gnum:18
+instances:1
+lifespan:5000.0
+velocity:0.00824009969688599
+distance:41.20049848443
+vertvel:1.44884516736369e-05
+vertpos:9.89001029986354
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g3046
+
+org:
+name:Oleiw Kehes
+genotype:~
+LX[Sin,t:0](,,llX[N,-1:1]lllX[|,-2:-1.66]llX[|,-3:2.295]llX[|,-4:3.239]LX[|,-5:0.402],X,lX)~
+info:5.62% mutation of 'Eheuz Kehes'
+energy0:1.0
+numparts:9
+numjoints:8
+numneurons:6
+numconnections:5
+num:1521
+gnum:9
+instances:1
+lifespan:5000.0
+velocity:0.0015393552469096
+distance:7.696776234548
+vertvel:2.76438086203211e-05
+vertpos:9.83148232327907
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g3048
+
+org:
+name:Adypuw Teheh
+genotype:~
+LQX[Sin](,,llXllX[|,-1:1.279]llX[|,-2:3.023]llX[|,-3:0.3]LmX[|,-4:0.3],,lX)~
+info:2.70% mutation of 'Yzypuf Teheh'
+energy0:1.0
+numparts:8
+numjoints:7
+numneurons:5
+numconnections:4
+num:1442
+gnum:7
+instances:2
+lifespan:5000.0
+velocity:0.00322579318558522
+distance:16.1289659279261
+vertvel:0.000292723905148861
+vertpos:9.35548301287874
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2889
+
+org:
+name:Ileug Hyheh
+genotype:~
+(LX[Sin]lXllX[|]llMXX[|, -2:2.318]llX[|, -3:0.3]LX[|, -4:-3.375], , lX)~
+info:7.04% mutation of 'Ikead Hyheh'
+energy0:1.0
+numparts:9
+numjoints:8
+numneurons:5
+numconnections:3
+num:1523
+gnum:11
+instances:1
+lifespan:5000.0
+velocity:0.0154631433351712
+distance:77.3157166758562
+vertvel:0.000195833724833625
+vertpos:9.51558766231762
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g3052
+
+org:
+name:Igeup Teheh
+genotype:~
+LX[Sin](,,llX[N,-1:0.076]lllX[|,-2:-0.932]llX[|,-3:2.295]llX[|,-4:0.271]LX[|,-5:0.1],,lX)~
+info:6.74% mutation of 'Ufeug Teheh'
+energy0:1.0
+numparts:8
+numjoints:7
+numneurons:6
+numconnections:5
+num:1524
+gnum:13
+instances:1
+lifespan:5000.0
+velocity:0.00270860258257664
+distance:13.5430129128832
+vertvel:3.02276115795458e-05
+vertpos:9.85029644782436
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g3054
+
+org:
+name:Ewypuc Hyheh
+genotype:~
+(LX[Sin]lXllX[|]llMXX[|, -2:3.128]llX[|, -3:0.3]LX[|, -4:-4.61], , lX)~
+info:8.45% mutation of 'Ileud Hyheh'
+energy0:1.0
+numparts:9
+numjoints:8
+numneurons:5
+numconnections:3
+num:1505
+gnum:13
+instances:2
+lifespan:5000.0
+velocity:0.0116103751034117
+distance:58.0518755170583
+vertvel:7.94061771516292e-05
+vertpos:9.80640182447707
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g3016
+
+org:
+name:Aein Tysy
+genotype:LX[Sin](, , LX[|][|, r:1], , lX)
+info:~
+Crossing over of 'Yonul Heheh' (95.92%) and 'Yfypur Teheh' (4.08%)~
+energy0:1.0
+numparts:4
+numjoints:3
+numneurons:3
+numconnections:0
+num:1527
+gnum:18
+instances:1
+lifespan:5000.0
+velocity:2.11236655286376e-06
+distance:0.0105618327643188
+vertvel:3.04906206645938e-07
+vertpos:9.77548285918662
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g3060
+
+org:
+name:Omohi Teheh
+genotype:~
+LX[Sin](,,llXllX[|,-1:1.279]llX[|]llX[|]LX[|,-4:-3.532],,lX)~
+info:10.17% mutation of 'Iypiz Teheh'
+energy0:1.0
+numparts:8
+numjoints:7
+numneurons:5
+numconnections:2
+num:1528
+gnum:12
+instances:1
+lifespan:5000.0
+velocity:0.000682121416437826
+distance:3.41060708218913
+vertvel:2.08655884020736e-05
+vertpos:9.81885552199318
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g3062
+
+org:
+name:Owypah Tyhyh
+genotype:LX[Sin](llX[|]lllXllX[|]llX[|]llX[|]LX[|], , lX)
+info:~
+Crossing over of 'Enyzuh Tehe' (80.00%) and 'Ynohaz Tyheh' (20.00%)~
+energy0:1.0
+numparts:9
+numjoints:8
+numneurons:6
+numconnections:0
+num:1529
+gnum:16
+instances:1
+lifespan:5000.0
+velocity:1.47607537037165e-05
+distance:0.0738037685185824
+vertvel:2.15502175697786e-06
+vertpos:9.8114498461516
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g3064
+
+org:
+name:Ikeic Teheh
+genotype:~
+LX[Sin]C(,,llX[N,-1:0.076]lllX[|,-2:1.326]XllX[|,-3:2.295]llX[|,-4:0.271]LX[|,-5:0.1],,lX)~
+info:1.12% mutation of 'Uleas Teheh'
+energy0:1.0
+numparts:9
+numjoints:8
+numneurons:6
+numconnections:5
+num:1530
+gnum:13
+instances:1
+lifespan:5000.0
+velocity:0.00446789039522319
+distance:22.3394519761159
+vertvel:1.46214802576161e-05
+vertpos:9.88848686113946
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g3066
+
+org:
+name:Izoha Keheh
+genotype:~
+LX[Sin,f0:0.0628319](lX,,lllMXllX[|,-1:5.44,p:0.25]llX[|,-2:0.695]llX[|,-3:0.3]LX[|,-4:-2.292],,lX)~
+info:5.00% mutation of 'Imohiz Keheh'
+energy0:1.0
+numparts:9
+numjoints:8
+numneurons:5
+numconnections:4
+num:1531
+gnum:10
+instances:1
+lifespan:5000.0
+velocity:0.00589718893112909
+distance:29.4859446556455
+vertvel:2.21058468659493e-05
+vertpos:9.86534863261932
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g3068
+
+org:
+name:Elypah Tysy
+genotype:LX[Sin](lX[|], , lX)
+info:~
+Crossing over of 'Yhywi Heheh' (100.00%) and 'Ufeas Keheh' (0.00%)~
+energy0:1.0
+numparts:4
+numjoints:3
+numneurons:2
+numconnections:0
+num:1533
+gnum:18
+instances:1
+lifespan:5000.0
+velocity:6.34850960153108e-06
+distance:0.0317425480076554
+vertvel:1.74927225691697e-06
+vertpos:9.69710618867413
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g3072
+
+org:
+name:Olypik Gehyhyh
+genotype:~
+LX[Sin, f0:0.0628319](lX[|, -1:1.233]llX[|, -2:1.295, r:1]llX[|, -3:0.3]LlX, X[|]llX[|]LqX[|], X, lllXXX[|][|, p:0.25]llX[|]llX[|]LX[|], , lX)~
+info:~
+Crossing over of 'Uypag Kehehy' (72.29%) and 'Olypuc Kehes' (27.71%)~
+energy0:1.0
+numparts:17
+numjoints:16
+numneurons:12
+numconnections:3
+num:1534
+gnum:16
+instances:1
+lifespan:5000.0
+velocity:0.00069073652974916
+distance:3.4536826487458
+vertvel:1.67976640783642e-06
+vertpos:9.82174191396693
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g3074
+
+org:
+name:Ygohar Keheh
+genotype:~
+LX[Sin](lX,,llXllX[|,-1:2.295]llX[|,-2:0.3,r:1]LX[|,-3:-1.295,r:1],,lX)~
+info:8.57% mutation of 'Urohuw Keheh'
+energy0:1.0
+numparts:8
+numjoints:7
+numneurons:4
+numconnections:3
+num:1535
+gnum:7
+instances:1
+lifespan:5000.0
+velocity:0.0015763578884484
+distance:7.88178944224201
+vertvel:1.37672460379143e-05
+vertpos:9.87579573361637
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g3076
+
+org:
+name:Adypam Keheh
+genotype:~
+LX[Sin, t:0](lXlMXllX[|,-1:1.233]llX[|,-2:4.237,r:1]llX[|,-3:0.3]LlX,,llXXX[|], lX)~
+info:6.02% mutation of 'Edypul Keheh'
+energy0:1.0
+numparts:12
+numjoints:11
+numneurons:5
+numconnections:3
+num:1536
+gnum:14
+instances:1
+lifespan:5000.0
+velocity:0.00475800551121016
+distance:23.7900275560508
+vertvel:1.81304036202139e-05
+vertpos:9.87469336090294
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g3078
+
+org:
+name:Etypar Hyheh
+genotype:~
+(LX[Sin]lXllX[|]llMXX[|, -2:0.332]llX[|, -3:0.3]LX[|, -4:-4.61], , lX)~
+info:7.14% mutation of 'Ewypuc Hyheh'
+energy0:1.0
+numparts:9
+numjoints:8
+numneurons:5
+numconnections:3
+num:1537
+gnum:14
+instances:1
+lifespan:5000.0
+velocity:0.0154938891389483
+distance:77.4694456947414
+vertvel:0.000166292277091438
+vertpos:9.74218287269471
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g3080
+
+org:
+name:Epypim Teheh
+genotype:~
+LX[Sin](, , llXllX[|]llX[|, -2:5.92]llX[|, -3:0.254]LMXllX[|, p:0.25]llX[|]llX, , lX)~
+info:~
+Crossing over of 'Egypuc Tyheh' (54.55%) and 'Ypocis Tehehe' (45.45%)~
+energy0:1.0
+numparts:11
+numjoints:10
+numneurons:6
+numconnections:2
+num:1538
+gnum:17
+instances:1
+lifespan:5000.0
+velocity:0.00073830392558401
+distance:3.69151962792005
+vertvel:1.02194890139838e-05
+vertpos:9.8377675261155
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g3082
+
+org:
+name:Azeap Dehyh
+genotype:~
+LX[Sin](lX, , llX, , llMXllX[|, -1:1.759]XllX[|]llX[|, r:1]LX[|, r:0.919], , lX)~
+info:~
+Crossing over of 'Irywak Heheh' (77.08%) and 'Yseac Keheh' (22.92%)~
+energy0:1.0
+numparts:11
+numjoints:10
+numneurons:5
+numconnections:1
+num:1539
+gnum:17
+instances:1
+lifespan:5000.0
+velocity:0.000600744097137944
+distance:3.00372048568972
+vertvel:1.15282825422835e-05
+vertpos:9.80397658059735
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g3084
+
+org:
+name:Acypin Hehyh
+genotype:~
+(LX[Sin]lXllX[|, -1:2.153]llMXllMX[|, -2:0.5]X[|]llX[|]LX[|], , lX)~
+info:7.46% mutation of 'Ocypi Hehyh'
+energy0:1.0
+numparts:10
+numjoints:9
+numneurons:6
+numconnections:2
+num:1540
+gnum:14
+instances:1
+lifespan:5000.0
+velocity:0.00171099067801073
+distance:8.55495339005366
+vertvel:2.02919941619648e-05
+vertpos:9.7798827029608
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g3086
+
+org:
+name:Ygonuz Keheh
+genotype:~
+LX[Sin](lX,,llMXllX[|,-1:4.174]llX[|,-2:2.399,r:0.93]llX[|,-3:0.3]LlX,,llX[N,-4:0.764]X)~
+info:5.95% mutation of 'Odeul Keheh'
+energy0:1.0
+numparts:10
+numjoints:9
+numneurons:5
+numconnections:4
+num:1541
+gnum:15
+instances:1
+lifespan:5000.0
+velocity:0.00353327954627234
+distance:17.6663977313617
+vertvel:1.2528806514943e-05
+vertpos:9.87457580853848
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g3088
+
+org:
+name:Itea Hyheh
+genotype:~
+(LX[Sin]lXllX[|]llMXX[|, -2:1.01]llX[|, -3:0.3]LX[|, -4:-3.375], , lX)~
+info:7.04% mutation of 'Ikead Hyheh'
+energy0:1.0
+numparts:9
+numjoints:8
+numneurons:5
+numconnections:3
+num:1304
+gnum:11
+instances:2
+lifespan:5000.0
+velocity:0.0154804486144575
+distance:77.4022430722875
+vertvel:0.000159076661986128
+vertpos:9.63829506523285
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2613
+
+org:
+name:Aypup Teheh
+genotype:~
+LX[Sin](, , llX[Sin, t:0]lXllX[|, -1:3.925,r:1]llX[|, -2:2.548]llX[|, -3:0.3][|, -4:1.182,r:1], , lX)~
+info:4.12% mutation of 'Yfypur Teheh'
+energy0:1.0
+numparts:8
+numjoints:7
+numneurons:6
+numconnections:4
+num:1542
+gnum:18
+instances:1
+lifespan:5000.0
+velocity:0.00437892477650598
+distance:21.8946238825299
+vertvel:2.31011515937421e-05
+vertpos:9.88864181041438
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g3090
+
+org:
+name:Ycywid Heheh
+genotype:~
+(LX[Sin]lX,,llMXllX[|,-1:3.73]llX[|,-2:3.642]llX[|,-3:0.3]LX[|,-4:-2.892]X)~
+info:6.58% mutation of 'Arywap Heheh'
+energy0:1.0
+numparts:9
+numjoints:8
+numneurons:5
+numconnections:4
+num:1543
+gnum:18
+instances:1
+lifespan:5000.0
+velocity:0.0120774870321094
+distance:60.3874351605469
+vertvel:1.41508387505397e-05
+vertpos:9.88953149337559
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g3092
+
+org:
+name:Ipywup Heheh
+genotype:~
+(LX[Sin]lX,,llMXllX[|,-1:1.759,p:0.25]llX[|,-2:4.667]llX[|,-3:-0.346]LX[|,-4:-2.892]X)~
+info:8.86% mutation of 'Yhywi Heheh'
+energy0:1.0
+numparts:9
+numjoints:8
+numneurons:5
+numconnections:4
+num:1544
+gnum:18
+instances:1
+lifespan:5000.0
+velocity:0.00366514490570482
+distance:18.3257245285241
+vertvel:1.60843357321895e-05
+vertpos:9.82995768470155
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g3094
+
+org:
+name:Uheruk Tehe
+genotype:~
+LX[Sin](lX,,,llMXllX[|,-1:-0.713]llX[|]llX[|,-3:-1.941])~
+info:11.32% mutation of 'Esehur Tehe'
+energy0:1.0
+numparts:7
+numjoints:6
+numneurons:4
+numconnections:2
+num:1545
+gnum:14
+instances:1
+lifespan:5000.0
+velocity:0.00149956969351258
+distance:7.4978484675629
+vertvel:4.81753872993419e-05
+vertpos:9.80134112968834
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g3096
+
+org:
+name:Yzypid Dehehe
+genotype:~
+LX[Sin](lX, , llXllX[|, -1:4.401]llX[|, -2:0.3, r:1]LLX[Sin], , llX[Sin, t:0]lXllX[|, -1:0.7]llX[|, -2:2.706]llX[|, -3:0.3][|, -4:1.182, r:1], , , , lX)~
+info:~
+Crossing over of 'Yseac Keheh' (36.55%) and 'Ecypaz Teheh' (63.45%)~
+energy0:1.0
+numparts:13
+numjoints:12
+numneurons:9
+numconnections:6
+num:1546
+gnum:18
+instances:1
+lifespan:5000.0
+velocity:0.00129117298576719
+distance:6.45586492883596
+vertvel:1.27124581366893e-05
+vertpos:9.8746998380513
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g3098
+
+org:
+name:Owypah Teheh
+genotype:~
+(LX[Sin]lX, , llMXllX[|, -1:2.015]llX[|, -2:1.295, r:1]llX[|, -3:0.971]LlX[*], , llXllX[|]lllMXXllX)~
+info:2.00% mutation of 'Owypip Keheh'
+energy0:1.0
+numparts:13
+numjoints:12
+numneurons:6
+numconnections:3
+num:1547
+gnum:17
+instances:1
+lifespan:5000.0
+velocity:0.0010527967192823
+distance:5.26398359641148
+vertvel:1.55662662482605e-06
+vertpos:9.82933694263926
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g3100
+
+org:
+name:Agohic Keheh
+genotype:~
+LX[Sin](lX,,llXllX[|,-1:2.295]llX[|,-2:-1.133,r:1]LX[|,-3:0.232,r:1],,lX)~
+info:8.57% mutation of 'Urohuw Keheh'
+energy0:1.0
+numparts:8
+numjoints:7
+numneurons:4
+numconnections:3
+num:1548
+gnum:7
+instances:1
+lifespan:5000.0
+velocity:0.00077736972765296
+distance:3.8868486382648
+vertvel:2.26761454897318e-05
+vertpos:9.77760545774656
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g3102
+
+org:
+name:Apeud Kehes
+genotype:~
+LFX[Sin,f0:0.0628319](,,llX[G]llX[|,-2:5.173]llMX[|,-3:0.549]llX[|,-4:0.813]LqX[|,-5:-1.481],X,lX)~
+info:5.21% mutation of 'Yleut Kehes'
+energy0:1.0
+numparts:9
+numjoints:8
+numneurons:6
+numconnections:4
+num:1550
+gnum:17
+instances:1
+lifespan:5000.0
+velocity:0.00203655434851659
+distance:10.1827717425829
+vertvel:1.82890643655423e-05
+vertpos:9.87492801154764
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g3106
+
+org:
+name:Igeak Kyheh
+genotype:~
+LX[Sin](lFX,,llXllX[|]llXlMX[|,-2:0.5]llX[|,-3:-2.662]LX[|,-4:-3.288],,lX)~
+info:8.11% mutation of 'Ogohid Kyheh'
+energy0:1.0
+numparts:10
+numjoints:9
+numneurons:5
+numconnections:3
+num:1407
+gnum:14
+instances:2
+lifespan:5000.0
+velocity:0.00549483187555572
+distance:27.4741593777786
+vertvel:1.43916989784278e-05
+vertpos:9.89088034235875
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g2819
+
+org:
+name:Uheu Keheh
+genotype:~
+LX[Sin](lX,,llMXllX[|,-1:4.174]llX[|,-2:2.399,r:0.93]llX[|,-3:3.586]LlX,,llX[N,-4:1]X)~
+info:5.95% mutation of 'Odeul Keheh'
+energy0:1.0
+numparts:10
+numjoints:9
+numneurons:5
+numconnections:4
+num:1551
+gnum:15
+instances:1
+lifespan:5000.0
+velocity:0.000827539194426365
+distance:4.13769597213182
+vertvel:3.12031795568402e-06
+vertpos:9.83545204518237
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g3108
+
+org:
+name:Ucead Tehyh
+genotype:~
+LX[Sin](lX, , llXllX[|, -1:4.401][G]llX[|]llMX[|]llXlX)~
+info:~
+Crossing over of 'Ewohis Kehes' (49.25%) and 'Yseac Keheh' (50.75%)~
+energy0:1.0
+numparts:9
+numjoints:8
+numneurons:5
+numconnections:1
+num:1552
+gnum:16
+instances:1
+lifespan:5000.0
+velocity:0.0007402701998784
+distance:3.701350999392
+vertvel:5.87487848624132e-05
+vertpos:9.69758171969177
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g3110
+
+org:
+name:Oeuz Keheh
+genotype:~
+LX[Sin](lX,,llMXllX[|,-1:1.279,p:0.25]llX[|,-2:2.114]llX[|,-3:5.275]LX[|,-4:-2.292],,lX)~
+info:5.68% mutation of 'Aeag Keheh'
+energy0:1.0
+numparts:9
+numjoints:8
+numneurons:5
+numconnections:4
+num:1553
+gnum:8
+instances:1
+lifespan:5000.0
+velocity:0.00135488491270835
+distance:6.77442456354175
+vertvel:2.2131987447511e-05
+vertpos:9.77920834713687
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g3112
+
+org:
+name:Yeut Teheh
+genotype:~
+LX[Sin]C(,,llX[N,-1:0.076]lllX[|,-2:1.326]llX[|,-3:2.295]llX[|,-4:0.271]LX[|,-5:-2.144],,lX)~
+info:6.74% mutation of 'Uleas Teheh'
+energy0:1.0
+numparts:8
+numjoints:7
+numneurons:6
+numconnections:5
+num:1554
+gnum:13
+instances:1
+lifespan:5000.0
+velocity:0.00434398614012356
+distance:21.7199307006178
+vertvel:2.1569183401034e-05
+vertpos:9.88158031764981
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g3114
+
+org:
+name:Anohud Heheh
+genotype:~
+(LX[Sin]X llXllX[|, -1:7.476]llMX[|, -2:5.254]llX[|, -3:0.332]LX[|, -4:1.182], , lX)~
+info:5.95% mutation of 'Ylohuc Heheh'
+energy0:1.0
+numparts:9
+numjoints:8
+numneurons:5
+numconnections:4
+num:1555
+gnum:19
+instances:1
+lifespan:5000.0
+velocity:0.00835823585804349
+distance:41.7911792902175
+vertvel:1.44884987391581e-05
+vertpos:9.89055662886207
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g3116
+
+org:
+name:Ocypar Teheh
+genotype:~
+LX[Sin](, , ,llXllX[|]llX[|, -2:5.92]llX[|, -3:0.254]LMXllX[|, p:0.25]llX[|]llX, , lX)~
+info:1.18% mutation of 'Epypim Teheh'
+energy0:1.0
+numparts:11
+numjoints:10
+numneurons:6
+numconnections:2
+num:1556
+gnum:18
+instances:1
+lifespan:5000.0
+velocity:0.000626457299731342
+distance:3.13228649865671
+vertvel:8.23529582042433e-06
+vertpos:9.83728653316819
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g3118
+
+org:
+name:Amohih Heheh
+genotype:~
+(LX[Sin]X llXllX[|, -1:8.316]llMX[|, -2:5.254]llX[|, -3:0.332]LX[|, -4:1.182], , lX)~
+info:5.95% mutation of 'Anohud Heheh'
+energy0:1.0
+numparts:9
+numjoints:8
+numneurons:5
+numconnections:4
+num:1557
+gnum:20
+instances:1
+lifespan:5000.0
+velocity:0.00807838317965894
+distance:40.3919158982947
+vertvel:1.44883615542359e-05
+vertpos:9.88995608034159
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g3120
+
+org:
+name:Itonug Teheh
+genotype:~
+(LX[Sin]lX,,llMXllX[|,-1:1.759]llX[Sin]lX, X[|,-3:0.3]LX[|,-4:-0.94]X)~
+info:~
+Crossing over of 'Isein Teheh' (87.14%) and 'Yonul Heheh' (12.86%)~
+energy0:1.0
+numparts:10
+numjoints:9
+numneurons:5
+numconnections:3
+num:1558
+gnum:17
+instances:1
+lifespan:5000.0
+velocity:0.000609683901714425
+distance:3.04841950857212
+vertvel:6.10707092881633e-06
+vertpos:9.83503194956015
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g3122
+
+org:
+name:Opypaz Hyheh
+genotype:~
+(LX[Sin,t:0]lXllX[|]llMXX[|, -2:3.128]llX[|, -3:0.3]LX[|, -4:-4.61], , lX)~
+info:5.71% mutation of 'Ewypuc Hyheh'
+energy0:1.0
+numparts:9
+numjoints:8
+numneurons:5
+numconnections:3
+num:1559
+gnum:14
+instances:1
+lifespan:5000.0
+velocity:0.0120685852813082
+distance:60.3429264065412
+vertvel:0.000140435476716009
+vertpos:9.72071319888508
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g3124
+

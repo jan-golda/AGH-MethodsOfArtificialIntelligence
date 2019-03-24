@@ -1,0 +1,26 @@
+# created Mon Mar 18 14:47:58 2019
+# by Framsticks 4.3
+org:
+name:TheFirstOne
+genotype:~
+LX[Sin](lX,,llXllX[|,-1:0.7]llX[|,-2:0.5]llX[|,-3:0.3]LX[|,-4:0.1],,lX)~
+info:(manually created)
+energy0:1.0
+numparts:9
+numjoints:8
+numneurons:5
+numconnections:4
+num:1
+gnum:0
+instances:3
+lifespan:5000.0
+velocity:0.00206844119029074
+distance:10.3422059514537
+vertvel:1.40437854697832e-05
+vertpos:19.875860648629
+user1:@Serialized:null
+user2:@Serialized:null
+user3:@Serialized:null
+is_valid:1
+uid:g1
+
