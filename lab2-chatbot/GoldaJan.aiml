@@ -1,0 +1,174 @@
+<!--
+
+	Chatbot by Jan Golda, 291431
+	
+	Wykorzystane konstrukcje:
+		- synonimy w sekcji "przywitanie"
+		- losowanie w sekcji "podziekowanie" i "bledy"
+		- redukcja symboliczna w sekcji "generalizacja"
+		- kontekst w sekcji "dostepne zajecia
+		- domyslna odpowiedz w sekcji "bledy"
+		- slowa kluczowe w sekcji "nazwa"
+		
+
+-->
+
+<aiml version="1.0.1" encoding="UTF-8">
+
+	<!-- PRZYWITANIE -->
+	<category>
+        	<pattern>CZESC</pattern>
+        	<template>Witaj, w czym moge pomoc?</template>
+    	</category>
+    	
+    	<category>
+        	<pattern>DZIEN DOBRY</pattern>
+	        <template><srai>CZESC</srai></template>
+	</category>
+    		
+    	<category>
+        	<pattern>DOBRY WIECZOR</pattern>
+        	<template><srai>CZESC</srai></template>
+    	</category>
+   	 
+    	<category>
+        	<pattern>HEJ</pattern>
+        	<template><srai>CZESC</srai></template>
+    	</category>
+    
+    	<category>
+        	<pattern>WITAJ</pattern>
+        	<template><srai>CZESC</srai></template>
+    	</category>
+
+
+	<!-- PODZIEKOWANIE -->
+	<category>
+        	<pattern>DZIEKUJE</pattern>
+        	<template>
+			<random>
+				<li>Ciesze sie ze moglam pomoc :)</li>
+				<li>Dziekuje, w razie jakich kolwiek watpliwosci jestem do dyspozycji</li>
+				<li>Dziekuje i zapaszam do nas na ul. Krakowska 1/1</li>
+			</random>
+		</template>
+    	</category>
+    	
+    	<category>
+        	<pattern>DZIEKUJE *</pattern>
+        	<template><srai>DZIEKUJE</srai></template>
+    	</category>
+
+	
+    	<!-- GENERALIZACJA -->
+	<category>
+		<pattern>CHCIALBYM *</pattern>
+		<template><srai>Chcialem <star/></srai></template>
+	</category>
+	<category>
+		<pattern>CHCIALAM *</pattern>
+		<template><srai>Chcialem <star/></srai></template>
+	</category>
+	<category>
+		<pattern>CHCIALABYM *</pattern>
+		<template><srai>Chcialem <star/></srai></template>
+	</category>
+	<category>
+		<pattern>TAK *</pattern>
+		<template><srai>Tak</srai></template>
+	</category>
+	<category>
+		<pattern>NIE *</pattern>
+		<template><srai>Nie</srai></template>
+	</category>
+
+
+	<!-- GODZINY OTWARCIA -->
+	<category>
+        	<pattern>GODZINY OTWARCIA</pattern>
+        	<template>Jestesmy czynni pn-pt 6:30-22:30 oraz sobota 8:00-16:00</template>
+    	</category>
+	<category>
+        	<pattern>CHCIALEM ZAPYTAC O GODZINY OTWARCIA</pattern>
+        	<template><srai>GODZINY OTWARCIA</srai></template>
+    	</category>
+	<category>
+        	<pattern>JAKIE SA GODZINY OTWARCIA</pattern>
+        	<template><srai>GODZINY OTWARCIA</srai></template>
+    	</category>
+
+
+	<!-- DOSTEPNE ZAJECIA -->
+	<category>
+        	<pattern>DOSTEPNE ZAJECIA</pattern>
+        	<template>Czy byles kiedys na zajeciach CrossFit?</template>
+    	</category>
+	<category>
+        	<pattern>JAKIE SA DOSTEPNE ZAJECIA</pattern>
+        	<template><srai>DOSTEPNE ZAJECIA</srai></template>
+    	</category>
+
+	<category>
+        	<pattern>NIE</pattern>
+		<that>CZY BYLES KIEDYS NA ZAJECIACH CROSSFIT</that>
+        	<template>W takim razie powinienes sie wybrac na zajecia Intro, ktore odbywaja sie w poniedzialki o 19:00, tam Ci wszystko wytlumaczymy :)</template>
+    	</category>
+	<category>
+        	<pattern>TAK</pattern>
+		<that>CZY BYLES KIEDYS NA ZAJECIACH CROSSFIT</that>
+        	<template>Ocen prosze swoj poziom w skali od 0 do 3</template>
+    	</category>
+	
+	<category>
+        	<pattern>0</pattern>
+		<that>OCEN PROSZE SWOJ POZIOM W SKALI OD 0 DO 3</that>
+        	<template>W takim razie powinienes sie wybrac na zajecia Intro, ktore odbywaja sie w poniedzialki o 19:00, tam Ci wszystko wytlumaczymy :)</template>
+    	</category>
+	<category>
+        	<pattern>1</pattern>
+		<that>OCEN PROSZE SWOJ POZIOM W SKALI OD 0 DO 3</that>
+        	<template>W takim razie zapraszamy na zajecia Beginners, ktore odbywaja sie pn-pt w godzinach: 7:00 8:00 10:00 18:00 20:00</template>
+    	</category>
+	<category>
+        	<pattern>2</pattern>
+		<that>OCEN PROSZE SWOJ POZIOM W SKALI OD 0 DO 3</that>
+        	<template>W takim razie zapraszamy na zajecia Crossfit, które odbywaja sie pn-pt w godzinach: 8:00 17:00 18:00 21:00</template>
+    	</category>
+	<category>
+        	<pattern>3</pattern>
+		<that>OCEN PROSZE SWOJ POZIOM W SKALI OD 0 DO 3</that>
+        	<template>W takim razie zapraszamy na zajecia Crossfit Advanced, które odbywaja sie pn-czw o godzinie 19:00</template>
+    	</category>
+
+
+	<!-- NAZWA -->
+	<category>
+		<pattern>72D</pattern>
+		<template>Ooo, znasz nasza nazwe :D</template>	
+	</category>
+    	<category>
+        	<pattern>_ 72D</pattern>
+        	<template><srai>72D</srai></template>
+    	</category>
+    	<category>
+        	<pattern>72D *</pattern>
+        	<template><srai>72D</srai></template>
+    	</category>
+    	<category>
+        	<pattern>_ 72D *</pattern>
+        	<template><srai>72D</srai></template>
+    	</category>
+
+
+	<!-- BLEDY -->
+	<category>
+		<pattern>*</pattern>
+        	<template>
+			<random>
+				<li>Przepraszam, nie rozumiem :(</li>
+				<li>Sproboj prosze ubrac to w inne slowa</li>
+				<li>Nie do konca rozumiem o co pytasz, mozesz to inaczej wyrazic?</li>
+			</random>
+		</template>
+	</category>    
+</aiml>
