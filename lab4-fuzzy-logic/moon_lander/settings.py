@@ -1,0 +1,18 @@
+import os
+
+FONT = os.path.join(os.path.dirname(__file__), 'fonts/digital.ttf')
+
+WORLD_SIZE = (1000, 800)
+
+FRAME_RATE = 60.
+
+GRAVITATION = (0., 10.)
+PHYSICS_SPEED = 2.
+
+LANDER_SIZE = (30., 30.)
+LANDER_STARTING_BOX = (50., 50., 950., 200.)
+SIDE_THRUSTERS_STRENGTH = 10.
+BOTTOM_THRUSTER_STRENGTH = 15.
+
+LANDING_SIZE = (100., 20.)
+LANDING_STARTING_BOX = (100., 700., 900., 750.)
