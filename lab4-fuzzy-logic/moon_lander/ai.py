@@ -113,6 +113,18 @@ class AIController:
 
         self._simulation.compute()
 
+    def view_memberships(self):
+        self._vertical_speed.view()
+        self._horizontal_speed.view()
+        self._vertical_position.view()
+        self._horizontal_position.view()
+        self._vertical_thrust.view()
+        self._horizontal_thrust.view()
+
+    def view_output(self):
+        self._vertical_thrust.view(self._simulation)
+        self._horizontal_thrust.view(self._simulation)
+
     def get_vertical_thrust(self):
         return self._simulation.output['vertical thrust']
 
