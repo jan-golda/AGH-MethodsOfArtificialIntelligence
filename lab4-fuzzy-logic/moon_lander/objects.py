@@ -12,8 +12,9 @@ from moon_lander import settings
 class GameObject:
     """ Base class of game object """
 
-    def __init__(self, pos: Vector2, width: float, height: float):
+    def __init__(self, game, pos: Vector2, width: float, height: float):
         """ Creates rectangle sized game object at given position """
+        self._game = game
         self.position = pos
         self.width = width
         self.height = height
@@ -39,8 +40,8 @@ class GameObject:
 class PhysicalObject(GameObject):
     """ Game object extended with physics calculations """
 
-    def __init__(self, pos: Vector2, width: float, height: float, mass: float = 1.0):
-        super().__init__(pos, width, height)
+    def __init__(self, game, pos: Vector2, width: float, height: float, mass: float = 1.0):
+        super().__init__(game, pos, width, height)
 
         self.mass = mass
         self.gravitation = Vector2(settings.GRAVITATION)

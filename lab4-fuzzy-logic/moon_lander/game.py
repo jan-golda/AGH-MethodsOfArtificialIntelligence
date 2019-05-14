@@ -3,11 +3,16 @@ from typing import List
 
 import pygame
 import pygame.freetype
+from pygame.rect import Rect
 
 from moon_lander import settings
 from moon_lander.lander import PlayerLander, AILander
 from moon_lander.landing_zone import LandingZone
 from moon_lander.objects import GameObject
+
+
+# custom events
+RESET_GAME = pygame.USEREVENT + 1
 
 
 class Game:
@@ -20,7 +25,8 @@ class Game:
         """
         # setup game
         self.ai = ai
-        self.score = 0
+        self.score_success = 0
+        self.score_fail = 0
         self.game_over = False
         self.game_objects: List[GameObject] = []
 
@@ -32,20 +38,20 @@ class Game:
         self.font = pygame.freetype.Font(settings.FONT, 36)
 
         # setup game objects
-        self.reset_game()
+        self._reset_game()
 
-    def reset_game(self):
+    def _reset_game(self):
         """ Reset game to initial state by creating new lander and landing zone """
-        self.game_objects = []
+        del self.game_objects[:]
 
         # create lander
         if self.ai:
-            self.game_objects.append(AILander())
+            self.game_objects.append(AILander(self))
         else:
-            self.game_objects.append(PlayerLander())
+            self.game_objects.append(PlayerLander(self))
 
         # create landing zone
-        self.game_objects.append(LandingZone())
+        self.game_objects.append(LandingZone(self))
 
     def handle_events(self):
         """ Handler events from PyGame """
@@ -57,6 +63,14 @@ class Game:
             if event.type == pygame.QUIT:
                 pygame.quit()
                 sys.exit()
+
+            # reset game
+            if event.type == RESET_GAME:
+                if event.success:
+                    self.score_success += 1
+                else:
+                    self.score_fail += 1
+                self._reset_game()
 
         # allow game objects to also handle events
         for o in self.game_objects:
@@ -74,7 +88,7 @@ class Game:
             o.draw(self.surface)
 
         # draw score
-        self.font.render_to(self.surface, (10, 10), str(self.score), pygame.Color('white'))
+        self.font.render_to(self.surface, (10, 10), f"{self.score_success} - {self.score_fail}", pygame.Color('white'))
 
     def run(self):
         """ Starts main game loop """
@@ -91,3 +105,23 @@ class Game:
 
             # send surface to display
             pygame.display.update()
+
+    @property
+    def map_border(self):
+        """ Returns Rect representing border of the map"""
+        return Rect(0, 0, *settings.WORLD_SIZE)
+
+    def get_colliding(self, obj: GameObject, with_self=False):
+        """ Returns all colliding game objects """
+        return [
+            self.game_objects[i]
+            for i in obj.bounds.collidelistall([
+                obj.bounds
+                for obj in self.game_objects
+            ])
+            if self.game_objects[i] is not obj or with_self
+        ]
+
+    def reset(self, success: bool):
+        """ Triggers reset game event """
+        pygame.event.post(pygame.event.Event(RESET_GAME, success=success))

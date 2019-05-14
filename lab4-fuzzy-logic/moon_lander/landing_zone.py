@@ -8,5 +8,8 @@ from moon_lander.utils import random_vector2
 class LandingZone(GameObject):
     """ Game object representing landing zone for lander """
 
-    def __init__(self, pos: Vector2 = random_vector2(*settings.LANDING_STARTING_BOX)):
-        super().__init__(pos, *settings.LANDING_SIZE)
+    def __init__(self, game, pos: Vector2 = None):
+        if not pos:
+            pos = random_vector2(*settings.LANDING_STARTING_BOX)
+
+        super().__init__(game, pos, *settings.LANDING_SIZE)
