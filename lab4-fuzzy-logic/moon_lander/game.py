@@ -126,8 +126,14 @@ class Game:
         if not self.map_border.collidepoint(self.lander.position):
             return self.reset(False)
 
+        # lander under the landing zone
+        if self.lander.bounds.bottom > self.landing.bounds.centery:
+            return self.reset(False)
+
         # lander collide with landing
         if self.lander.bounds.colliderect(self.landing.bounds):
+            if self.lander.bounds.right > self.landing.bounds.right or self.lander.bounds.left < self.landing.bounds.left:
+                return self.reset(False)
             if abs(self.lander.speed.x) > settings.MAX_HORIZONTAL_LANDING_SPEED:
                 return self.reset(False)
             if abs(self.lander.speed.y) > settings.MAX_VERTICAL_LANDING_SPEED:
