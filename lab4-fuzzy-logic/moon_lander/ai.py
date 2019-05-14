@@ -12,7 +12,7 @@ class AIController:
         # inputs
 
         self._horizontal_speed = ctrl.Antecedent(
-            np.arange(-100, 101, 10),
+            np.arange(-60, 61, 10),
             'horizontal speed'
         )
         self._horizontal_position = ctrl.Antecedent(
@@ -21,7 +21,7 @@ class AIController:
         )
 
         self._vertical_speed = ctrl.Antecedent(
-            np.arange(-150, 151, 10),
+            np.arange(-60, 61, 10),
             'vertical speed'
         )
         self._vertical_position = ctrl.Antecedent(
@@ -40,77 +40,81 @@ class AIController:
         )
 
         # auto membership
-        horizontal_names = ['high-left', 'left', 'center', 'right', 'high-right']
+        horizontal_names = ['very-left', 'left', 'center', 'right', 'very-right']
         self._horizontal_speed.automf(names=horizontal_names)
         self._horizontal_position.automf(names=horizontal_names)
         self._horizontal_thrust.automf(names=horizontal_names)
 
-        self._vertical_speed.automf(names=['up', 'static', 'down'])
-        self._vertical_position.automf(names=['low', 'center', 'high'])
-        self._vertical_thrust.automf(names=['none', 'very-low', 'low', 'high', 'very-high'])
+        vertical_names = ['very-low', 'low', 'center', 'high', 'very-high']
+        self._vertical_speed.automf(names=vertical_names, invert=True)
+        self._vertical_position.automf(names=vertical_names, invert=True)
+        self._vertical_thrust.automf(names=vertical_names)
 
         # rules
         horizontal_rules = [
-            ('high-left',   'high-left',    'high-right'),
-            ('high-left',   'left',         'high-right'),
-            ('high-left',   'center',       'right'),
-            ('high-left',   'right',        'center'),
-            ('high-left',   'high-right',   'left'),
-            ('left',        'high-left',    'high-right'),
-            ('left',        'left',         'high-right'),
+            ('very-left',   'very-left',    'very-right'),
+            ('very-left',   'left',         'very-right'),
+            ('very-left',   'center',       'right'),
+            ('very-left',   'right',        'center'),
+            ('very-left',   'very-right',   'left'),
+            ('left',        'very-left',    'very-right'),
+            ('left',        'left',         'very-right'),
             ('left',        'center',       'right'),
             ('left',        'right',        'center'),
-            ('left',        'high-right',   'left'),
-            ('center',      'high-left',    'high-right'),
-            ('center',      'left',         'high-right'),
+            ('left',        'very-right',   'left'),
+            ('center',      'very-left',    'very-right'),
+            ('center',      'left',         'very-right'),
             ('center',      'center',       'center'),
-            ('center',      'right',        'high-left'),
-            ('center',      'high-right',   'high-left'),
-            ('right',       'high-left',    'right'),
+            ('center',      'right',        'very-left'),
+            ('center',      'very-right',   'very-left'),
+            ('right',       'very-left',    'right'),
             ('right',       'left',         'center'),
             ('right',       'center',       'left'),
-            ('right',       'right',        'high-left'),
-            ('right',       'high-right',   'high-left'),
-            ('high-right',  'high-left',    'right'),
-            ('high-right',  'left',         'center'),
-            ('high-right',  'center',       'left'),
-            ('high-right',  'right',        'high-left'),
-            ('high-right',  'high-right',   'high-left'),
+            ('right',       'right',        'very-left'),
+            ('right',       'very-right',   'very-left'),
+            ('very-right',  'very-left',    'right'),
+            ('very-right',  'left',         'center'),
+            ('very-right',  'center',       'left'),
+            ('very-right',  'right',        'very-left'),
+            ('very-right',  'very-right',   'very-left'),
+        ]
+        
+        vertical_rules = [
+            ('very-low',    'very-low',     'very-high'),
+            ('very-low',    'low',          'very-high'),
+            ('very-low',    'center',       'high'),
+            ('very-low',    'high',         'center'),
+            ('very-low',    'very-high',    'low'),
+            ('low',         'very-low',     'very-high'),
+            ('low',         'low',          'high'),
+            ('low',         'center',       'high'),
+            ('low',         'high',         'very-low'),
+            ('low',         'very-high',    'very-low'),
+            ('center',      'very-low',     'very-high'),
+            ('center',      'low',          'very-high'),
+            ('center',      'center',       'center'),
+            ('center',      'high',         'very-low'),
+            ('center',      'very-high',    'very-low'),
+            ('high',        'very-low',     'very-high'),
+            ('high',        'low',          'very-high'),
+            ('high',        'center',       'low'),
+            ('high',        'high',         'low'),
+            ('high',        'very-high',    'very-low'),
+            ('very-high',   'very-low',     'high'),
+            ('very-high',   'low',          'center'),
+            ('very-high',   'center',       'low'),
+            ('very-high',   'high',         'very-low'),
+            ('very-high',   'very-high',    'very-low'),
         ]
 
-        self._rules = [
+        self._rules = []
+        self._rules += [
             ctrl.Rule(self._horizontal_position[p] & self._horizontal_speed[s], self._horizontal_thrust[t])
             for p, s, t in horizontal_rules
         ]
-
-        # rules
         self._rules += [
-
-            # vertical
-            ctrl.Rule(
-                self._vertical_position['low'],
-                self._vertical_thrust['high']
-            ),
-            ctrl.Rule(
-                self._vertical_position['low'] & self._vertical_speed['down'],
-                self._vertical_thrust['very-high']
-            ),
-            ctrl.Rule(
-                self._vertical_position['high'],
-                self._vertical_thrust['very-low']
-            ),
-            ctrl.Rule(
-                self._vertical_position['high'] & self._vertical_speed['up'],
-                self._vertical_thrust['none']
-            ),
-            ctrl.Rule(
-                self._vertical_position['center'] & self._vertical_speed['down'],
-                self._vertical_thrust['high']
-            ),
-            ctrl.Rule(
-                self._vertical_position['center'],
-                self._vertical_thrust['low']
-            ),
+            ctrl.Rule(self._vertical_position[p] & self._vertical_speed[s], self._vertical_thrust[t])
+            for p, s, t in vertical_rules
         ]
 
         # control system

@@ -78,8 +78,7 @@ class AILander(Lander):
         self._controller.input(self.position, self.speed, self.landing.position)
 
         # set thrusts
-        # self.bottom_thruster = self._controller.get_vertical_thrust()
-        self.bottom_thruster = 0.5
+        self.bottom_thruster = self._controller.get_vertical_thrust()
         self.right_thruster = -min(0, self._controller.get_horizontal_thrust())
         self.left_thruster = max(0, self._controller.get_horizontal_thrust())
 
