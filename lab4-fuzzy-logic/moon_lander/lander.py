@@ -1,5 +1,6 @@
 import pygame
 from pygame import Vector2
+from pygame.surface import Surface
 
 from moon_lander import settings
 from moon_lander.ai import AIController
@@ -34,6 +35,18 @@ class Lander(PhysicalObject):
 
         # update physics
         super().update(delta)
+
+    def draw(self, surface: Surface):
+        super().draw(surface)
+
+        b = self.bounds
+        s = settings.LANDER_THRUSTER_SIZE
+        # left thruster
+        pygame.draw.line(surface, pygame.Color('red'), b.midleft, (b.midleft[0] - self.left_thruster * s, b.midleft[1]))
+        # right thruster
+        pygame.draw.line(surface, pygame.Color('red'), b.midright, (b.midright[0] + self.right_thruster * s, b.midright[1]))
+        # bottom thruster
+        pygame.draw.line(surface, pygame.Color('red'), b.midbottom, (b.midbottom[0], b.midbottom[1] + self.bottom_thruster * s))
 
 
 class PlayerLander(Lander):
