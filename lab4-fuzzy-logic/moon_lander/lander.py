@@ -2,6 +2,7 @@ import pygame
 from pygame import Vector2
 
 from moon_lander import settings
+from moon_lander.ai import AIController
 from moon_lander.landing_zone import LandingZone
 from moon_lander.objects import PhysicalObject
 from moon_lander.utils import random_vector2
@@ -10,11 +11,13 @@ from moon_lander.utils import random_vector2
 class Lander(PhysicalObject):
     """ Game object representing lander """
 
-    def __init__(self, game, pos: Vector2 = None):
+    def __init__(self, landing: LandingZone, pos: Vector2 = None):
         if not pos:
             pos = random_vector2(*settings.LANDER_STARTING_BOX)
 
-        super().__init__(game, pos, *settings.LANDER_SIZE)
+        super().__init__(pos, *settings.LANDER_SIZE)
+
+        self.landing = landing
 
         self.left_thruster = 0
         self.right_thruster = 0
@@ -31,28 +34,6 @@ class Lander(PhysicalObject):
 
         # update physics
         super().update(delta)
-
-        # handle collisions
-        self._check_collisions()
-
-    def _check_collisions(self):
-
-        # check if lander is inside borders
-        if not self._game.map_border.collidepoint(self.position):
-            self._game.reset(False)
-
-        # check if lander collides with other objects
-        for obj in self._game.get_colliding(self):
-            # collision with landing zone
-            if isinstance(obj, LandingZone):
-                self._game.reset(self._check_landing())
-
-    def _check_landing(self):
-        return (
-                abs(self.speed.x) < settings.MAX_HORIZONTAL_LANDING_SPEED
-                and
-                abs(self.speed.y) < settings.MAX_VERTICAL_LANDING_SPEED
-        )
 
 
 class PlayerLander(Lander):
@@ -72,4 +53,27 @@ class PlayerLander(Lander):
 
 class AILander(Lander):
     """ Lander extended with AI driven controls"""
-    pass
+
+    def __init__(self, landing: LandingZone, pos: Vector2 = None):
+        super().__init__(landing, pos)
+
+        self._ai = AIController()
+
+    def update(self, delta: int):
+
+        # provide data for ai controller
+        self._ai.input(self.position, self.speed, self.landing.position)
+
+        # set thrusts
+        self.bottom_thruster = self._ai.get_vertical_thrust()
+        self.left_thruster = min(0, self._ai.get_horizontal_thrust())
+        self.right_thruster = max(0, self._ai.get_horizontal_thrust())
+
+        # update physics
+        super().update(delta)
+
+
+
+
+
+

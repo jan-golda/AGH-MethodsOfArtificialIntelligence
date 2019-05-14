@@ -28,7 +28,6 @@ class Game:
         self.score_success = 0
         self.score_fail = 0
         self.game_over = False
-        self.game_objects: List[GameObject] = []
 
         # setup PyGame
         pygame.init()
@@ -42,16 +41,15 @@ class Game:
 
     def _reset_game(self):
         """ Reset game to initial state by creating new lander and landing zone """
-        del self.game_objects[:]
+
+        # create landing zone
+        self.landing = LandingZone()
 
         # create lander
         if self.ai:
-            self.game_objects.append(AILander(self))
+            self.lander = AILander(self.landing)
         else:
-            self.game_objects.append(PlayerLander(self))
-
-        # create landing zone
-        self.game_objects.append(LandingZone(self))
+            self.lander = PlayerLander(self.landing)
 
     def handle_events(self):
         """ Handler events from PyGame """
@@ -80,6 +78,8 @@ class Game:
         """ Updates state of the game """
         for o in self.game_objects:
             o.update(delta)
+
+        self._check_collisions()
 
     def draw(self):
         """ Draws game objects on surface """
@@ -111,17 +111,25 @@ class Game:
         """ Returns Rect representing border of the map"""
         return Rect(0, 0, *settings.WORLD_SIZE)
 
-    def get_colliding(self, obj: GameObject, with_self=False):
-        """ Returns all colliding game objects """
-        return [
-            self.game_objects[i]
-            for i in obj.bounds.collidelistall([
-                obj.bounds
-                for obj in self.game_objects
-            ])
-            if self.game_objects[i] is not obj or with_self
-        ]
+    @property
+    def game_objects(self) -> List[GameObject]:
+        """ Returns all game objects in this game"""
+        return [self.lander, self.landing]
 
     def reset(self, success: bool):
         """ Triggers reset game event """
         pygame.event.post(pygame.event.Event(RESET_GAME, success=success))
+
+    def _check_collisions(self):
+
+        # lander inside borders
+        if not self.map_border.collidepoint(self.lander.position):
+            return self.reset(False)
+
+        # lander collide with landing
+        if self.lander.bounds.colliderect(self.landing.bounds):
+            if abs(self.lander.speed.x) > settings.MAX_HORIZONTAL_LANDING_SPEED:
+                return self.reset(False)
+            if abs(self.lander.speed.y) > settings.MAX_VERTICAL_LANDING_SPEED:
+                return self.reset(False)
+            return self.reset(True)

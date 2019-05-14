@@ -7,6 +7,9 @@ verify_ssl = true
 
 [packages]
 pygame = "*"
+scikit-fuzzy = "*"
+matplotlib = "*"
+tkinter = "*"
 
 [requires]
 python_version = "3.7"
