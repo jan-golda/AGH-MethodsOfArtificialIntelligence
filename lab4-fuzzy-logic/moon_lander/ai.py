@@ -10,21 +10,23 @@ class AIController:
     def __init__(self):
 
         # inputs
-        self._vertical_speed = ctrl.Antecedent(
-            np.arange(-150, 150, 10),
-            'vertical speed'
-        )
+
         self._horizontal_speed = ctrl.Antecedent(
-            np.arange(-150, 150, 10),
+            np.arange(-100, 101, 10),
             'horizontal speed'
         )
-        self._vertical_position = ctrl.Antecedent(
-            np.arange(-settings.WORLD_SIZE[1], settings.WORLD_SIZE[1], 10),
-            'vertical position'
-        )
         self._horizontal_position = ctrl.Antecedent(
-            np.arange(-settings.WORLD_SIZE[0], settings.WORLD_SIZE[0], 10),
+            np.arange(-settings.WORLD_SIZE[0], settings.WORLD_SIZE[0]+1, 10),
             'horizontal position'
+        )
+
+        self._vertical_speed = ctrl.Antecedent(
+            np.arange(-150, 151, 10),
+            'vertical speed'
+        )
+        self._vertical_position = ctrl.Antecedent(
+            np.arange(-settings.WORLD_SIZE[1], settings.WORLD_SIZE[1]+1, 10),
+            'vertical position'
         )
 
         # outputs
@@ -38,38 +40,51 @@ class AIController:
         )
 
         # auto membership
+        horizontal_names = ['high-left', 'left', 'center', 'right', 'high-right']
+        self._horizontal_speed.automf(names=horizontal_names)
+        self._horizontal_position.automf(names=horizontal_names)
+        self._horizontal_thrust.automf(names=horizontal_names)
+
         self._vertical_speed.automf(names=['up', 'static', 'down'])
-        self._horizontal_speed.automf(names=['left', 'static', 'right'])
         self._vertical_position.automf(names=['low', 'center', 'high'])
-        self._horizontal_position.automf(names=['left', 'center', 'right'])
         self._vertical_thrust.automf(names=['none', 'very-low', 'low', 'high', 'very-high'])
-        self._horizontal_thrust.automf(names=['very-left', 'left', 'none', 'right', 'very-right'])
 
         # rules
+        horizontal_rules = [
+            ('high-left',   'high-left',    'high-right'),
+            ('high-left',   'left',         'high-right'),
+            ('high-left',   'center',       'right'),
+            ('high-left',   'right',        'center'),
+            ('high-left',   'high-right',   'left'),
+            ('left',        'high-left',    'high-right'),
+            ('left',        'left',         'high-right'),
+            ('left',        'center',       'right'),
+            ('left',        'right',        'center'),
+            ('left',        'high-right',   'left'),
+            ('center',      'high-left',    'high-right'),
+            ('center',      'left',         'high-right'),
+            ('center',      'center',       'center'),
+            ('center',      'right',        'high-left'),
+            ('center',      'high-right',   'high-left'),
+            ('right',       'high-left',    'right'),
+            ('right',       'left',         'center'),
+            ('right',       'center',       'left'),
+            ('right',       'right',        'high-left'),
+            ('right',       'high-right',   'high-left'),
+            ('high-right',  'high-left',    'right'),
+            ('high-right',  'left',         'center'),
+            ('high-right',  'center',       'left'),
+            ('high-right',  'right',        'high-left'),
+            ('high-right',  'high-right',   'high-left'),
+        ]
+
         self._rules = [
+            ctrl.Rule(self._horizontal_position[p] & self._horizontal_speed[s], self._horizontal_thrust[t])
+            for p, s, t in horizontal_rules
+        ]
 
-            # horizontal
-            ctrl.Rule(
-                self._horizontal_position['left'],
-                self._horizontal_thrust['right']
-            ),
-            ctrl.Rule(
-                self._horizontal_position['left'] & self._horizontal_speed['left'],
-                self._horizontal_thrust['very-right']
-            ),
-            ctrl.Rule(
-                self._horizontal_position['right'],
-                self._horizontal_thrust['left']
-            ),
-            ctrl.Rule(
-                self._horizontal_position['right'] & self._horizontal_speed['right'],
-                self._horizontal_thrust['very-left']
-            ),
-            ctrl.Rule(
-                self._horizontal_position['center'],
-                self._horizontal_thrust['none']
-            ),
-
+        # rules
+        self._rules += [
 
             # vertical
             ctrl.Rule(
