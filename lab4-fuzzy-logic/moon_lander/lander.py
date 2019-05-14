@@ -54,26 +54,20 @@ class PlayerLander(Lander):
 class AILander(Lander):
     """ Lander extended with AI driven controls"""
 
-    def __init__(self, landing: LandingZone, pos: Vector2 = None):
+    def __init__(self, landing: LandingZone, controller: AIController, pos: Vector2 = None):
         super().__init__(landing, pos)
 
-        self._ai = AIController()
+        self._controller = controller
 
     def update(self, delta: int):
 
         # provide data for ai controller
-        self._ai.input(self.position, self.speed, self.landing.position)
+        self._controller.input(self.position, self.speed, self.landing.position)
 
         # set thrusts
-        self.bottom_thruster = self._ai.get_vertical_thrust()
-        self.left_thruster = min(0, self._ai.get_horizontal_thrust())
-        self.right_thruster = max(0, self._ai.get_horizontal_thrust())
+        self.bottom_thruster = self._controller.get_vertical_thrust()
+        self.left_thruster = min(0, self._controller.get_horizontal_thrust())
+        self.right_thruster = max(0, self._controller.get_horizontal_thrust())
 
         # update physics
         super().update(delta)
-
-
-
-
-
-

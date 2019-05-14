@@ -1,7 +1,6 @@
 import numpy as np
 import skfuzzy.control as ctrl
 from pygame import Vector2
-from skfuzzy.control.visualization import FuzzyVariableVisualizer
 
 from moon_lander import settings
 
@@ -104,14 +103,6 @@ class AIController:
 
         # simulation
         self._simulation = ctrl.ControlSystemSimulation(self._ctrl)
-
-    def view_memberships(self):
-        self._vertical_speed.view()
-        self._horizontal_speed.view()
-        self._vertical_position.view()
-        self._horizontal_position.view()
-        self._vertical_thrust.view()
-        self._horizontal_thrust.view()
 
     def input(self, pos: Vector2, speed: Vector2, landing: Vector2):
         self._simulation.input['horizontal position'] = pos.x - landing.x

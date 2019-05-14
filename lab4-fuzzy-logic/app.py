@@ -1,5 +1,6 @@
 import argparse
 
+from moon_lander.ai import AIController
 from moon_lander.game import Game
 
 
@@ -14,4 +15,9 @@ def parse_args():
 if __name__ == '__main__':
     args = parse_args()
 
-    Game(ai=args.ai).run()
+    # get controller if requested
+    controller = None
+    if args.ai:
+        controller = AIController()
+
+    Game(controller).run()

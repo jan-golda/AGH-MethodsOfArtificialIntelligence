@@ -18,21 +18,21 @@ RESET_GAME = pygame.USEREVENT + 1
 class Game:
     """ Main game class, manages game loop and stores game objects """
 
-    def __init__(self, ai: bool = False):
+    def __init__(self, controller=None):
         """
         Game setup
         :param ai: if lander should be controlled by AI instead of player
         """
         # setup game
-        self.ai = ai
         self.score_success = 0
         self.score_fail = 0
         self.game_over = False
+        self.controller = controller
 
         # setup PyGame
         pygame.init()
         self.surface = pygame.display.set_mode(settings.WORLD_SIZE)
-        pygame.display.set_caption('Fuzzy Logic: Moon Lander' + (' [AI]' if ai else ''))
+        pygame.display.set_caption('Fuzzy Logic: Moon Lander' + (' [AI]' if controller else ''))
         self.clock = pygame.time.Clock()
         self.font = pygame.freetype.Font(settings.FONT, 36)
 
@@ -46,8 +46,8 @@ class Game:
         self.landing = LandingZone()
 
         # create lander
-        if self.ai:
-            self.lander = AILander(self.landing)
+        if self.controller:
+            self.lander = AILander(self.landing, self.controller)
         else:
             self.lander = PlayerLander(self.landing)
 
