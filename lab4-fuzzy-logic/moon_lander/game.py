@@ -88,7 +88,7 @@ class Game:
             o.draw(self.surface)
 
         # draw score
-        self.font.render_to(self.surface, (10, 10), f"{self.score_success} - {self.score_fail}", pygame.Color('white'))
+        self.font.render_to(self.surface, (10, 10), f"{self.score_success} / {self.score_fail + self.score_success}", pygame.Color('white'))
 
     def run(self):
         """ Starts main game loop """
