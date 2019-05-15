@@ -11,109 +11,105 @@ class AIController:
 
         # inputs
 
-        self._horizontal_speed = ctrl.Antecedent(
-            np.arange(-60, 61, 10),
+        self._h_speed = ctrl.Antecedent(
+            np.arange(-50, 51, 10),
             'horizontal speed'
         )
-        self._horizontal_position = ctrl.Antecedent(
+        self._h_pos = ctrl.Antecedent(
             np.arange(-settings.WORLD_SIZE[0], settings.WORLD_SIZE[0]+1, 10),
             'horizontal position'
         )
 
-        self._vertical_speed = ctrl.Antecedent(
+        self._v_speed = ctrl.Antecedent(
             np.arange(-60, 61, 10),
             'vertical speed'
         )
-        self._vertical_position = ctrl.Antecedent(
+        self._v_pos = ctrl.Antecedent(
             np.arange(-settings.WORLD_SIZE[1], settings.WORLD_SIZE[1]+1, 10),
             'vertical position'
         )
 
         # outputs
-        self._vertical_thrust = ctrl.Consequent(
+        self._v_thrust = ctrl.Consequent(
             np.arange(0.0, 1.0, 0.05),
             'vertical thrust'
         )
-        self._horizontal_thrust = ctrl.Consequent(
+        self._h_thrust = ctrl.Consequent(
             np.arange(-1.0, 1.0, 0.05),
             'horizontal thrust'
         )
 
         # auto membership
         horizontal_names = ['very-left', 'left', 'center', 'right', 'very-right']
-        self._horizontal_speed.automf(names=horizontal_names)
-        self._horizontal_position.automf(names=horizontal_names)
-        self._horizontal_thrust.automf(names=horizontal_names)
+        self._h_speed.automf(names=horizontal_names)
+        self._h_pos.automf(names=horizontal_names)
+        self._h_thrust.automf(names=horizontal_names)
 
         vertical_names = ['very-low', 'low', 'center', 'high', 'very-high']
-        self._vertical_speed.automf(names=vertical_names, invert=True)
-        self._vertical_position.automf(names=vertical_names, invert=True)
-        self._vertical_thrust.automf(names=vertical_names)
+        self._v_speed.automf(names=vertical_names, invert=True)
+        self._v_pos.automf(names=vertical_names, invert=True)
+        self._v_thrust.automf(names=vertical_names)
 
         # rules
-        horizontal_rules = [
-            ('very-left',   'very-left',    'very-right'),
-            ('very-left',   'left',         'very-right'),
-            ('very-left',   'center',       'right'),
-            ('very-left',   'right',        'center'),
-            ('very-left',   'very-right',   'left'),
-            ('left',        'very-left',    'very-right'),
-            ('left',        'left',         'very-right'),
-            ('left',        'center',       'right'),
-            ('left',        'right',        'center'),
-            ('left',        'very-right',   'left'),
-            ('center',      'very-left',    'very-right'),
-            ('center',      'left',         'very-right'),
-            ('center',      'center',       'center'),
-            ('center',      'right',        'very-left'),
-            ('center',      'very-right',   'very-left'),
-            ('right',       'very-left',    'right'),
-            ('right',       'left',         'center'),
-            ('right',       'center',       'left'),
-            ('right',       'right',        'very-left'),
-            ('right',       'very-right',   'very-left'),
-            ('very-right',  'very-left',    'right'),
-            ('very-right',  'left',         'center'),
-            ('very-right',  'center',       'left'),
-            ('very-right',  'right',        'very-left'),
-            ('very-right',  'very-right',   'very-left'),
-        ]
         
         vertical_rules = [
-            ('very-low',    'very-low',     'very-high'),
-            ('very-low',    'low',          'very-high'),
-            ('very-low',    'center',       'high'),
-            ('very-low',    'high',         'center'),
-            ('very-low',    'very-high',    'low'),
-            ('low',         'very-low',     'very-high'),
-            ('low',         'low',          'high'),
-            ('low',         'center',       'high'),
-            ('low',         'high',         'very-low'),
-            ('low',         'very-high',    'very-low'),
             ('center',      'very-low',     'very-high'),
             ('center',      'low',          'very-high'),
             ('center',      'center',       'center'),
-            ('center',      'high',         'very-low'),
-            ('center',      'very-high',    'very-low'),
             ('high',        'very-low',     'very-high'),
             ('high',        'low',          'very-high'),
             ('high',        'center',       'low'),
             ('high',        'high',         'low'),
-            ('high',        'very-high',    'very-low'),
-            ('very-high',   'very-low',     'high'),
+            ('high',        'very-high',    'low'),
+            ('very-high',   'very-low',     'center'),
             ('very-high',   'low',          'center'),
             ('very-high',   'center',       'low'),
-            ('very-high',   'high',         'very-low'),
-            ('very-high',   'very-high',    'very-low'),
+            ('very-high',   'high',         'low'),
+            ('very-high',   'very-high',    'low'),
         ]
 
         self._rules = []
+        self._rules.append(ctrl.Rule(self._h_pos['very-left'], self._h_thrust['very-right']))
+        self._rules.append(ctrl.Rule(self._h_pos['very-right'], self._h_thrust['very-left']))
+        self._rules.append(ctrl.Rule(self._h_pos['very-left'] & self._h_speed['very-right'], self._h_thrust['right']))
+        self._rules.append(ctrl.Rule(self._h_pos['very-right'] & self._h_speed['very-left'], self._h_thrust['left']))
+
+        self._rules.append(ctrl.Rule(self._h_pos['left'], self._h_thrust['right']))
+        self._rules.append(ctrl.Rule(self._h_pos['right'], self._h_thrust['left']))
+        self._rules.append(ctrl.Rule(self._h_pos['left'] & self._h_speed['very-right'], self._h_thrust['left']))
+        self._rules.append(ctrl.Rule(self._h_pos['right'] & self._h_speed['very-left'], self._h_thrust['right']))
+
+        # centering horizontally close to landing
+        self._rules.append(ctrl.Rule(self._h_pos['center'] & self._h_speed['very-right'], self._h_thrust['very-left']))
+        self._rules.append(ctrl.Rule(self._h_pos['center'] & self._h_speed['right'], self._h_thrust['left']))
+        self._rules.append(ctrl.Rule(self._h_pos['center'] & self._h_speed['center'], self._h_thrust['center']))
+        self._rules.append(ctrl.Rule(self._h_pos['center'] & self._h_speed['left'], self._h_thrust['right']))
+        self._rules.append(ctrl.Rule(self._h_pos['center'] & self._h_speed['very-left'], self._h_thrust['very-right']))
+
+        # if is very high and not over landing slow down descend by little
+        self._rules.append(ctrl.Rule(
+            self._v_pos['very-high'] & (self._h_pos['very-left'] | self._h_pos['very-right']),
+            self._v_thrust['high']
+        ))
+
+        # if is high and not over landing slow down descend
+        self._rules.append(ctrl.Rule(
+            (self._v_pos['high'] | self._v_pos['center']) & (self._h_pos['left'] | self._h_pos['right'] | self._h_pos['very-left'] | self._h_pos['very-right']),
+            self._v_thrust['very-high']
+        ))
+
+        # fast corrections when very low
+        self._rules.append(ctrl.Rule(
+            self._v_pos['center'] & (self._h_pos['left'] | self._h_pos['very-left']),
+            self._h_thrust['very-right']
+        ))
+        self._rules.append(ctrl.Rule(
+            self._v_pos['center'] & (self._h_pos['right'] | self._h_pos['very-right']),
+            self._h_thrust['very-left']
+        ))
+
         self._rules += [
-            ctrl.Rule(self._horizontal_position[p] & self._horizontal_speed[s], self._horizontal_thrust[t])
-            for p, s, t in horizontal_rules
-        ]
-        self._rules += [
-            ctrl.Rule(self._vertical_position[p] & self._vertical_speed[s], self._vertical_thrust[t])
+            ctrl.Rule(self._v_pos[p] & self._v_speed[s], self._v_thrust[t])
             for p, s, t in vertical_rules
         ]
 
@@ -133,16 +129,16 @@ class AIController:
         self._simulation.compute()
 
     def view_memberships(self):
-        self._vertical_speed.view()
-        self._horizontal_speed.view()
-        self._vertical_position.view()
-        self._horizontal_position.view()
-        self._vertical_thrust.view()
-        self._horizontal_thrust.view()
+        self._v_speed.view()
+        self._h_speed.view()
+        self._v_pos.view()
+        self._h_pos.view()
+        self._v_thrust.view()
+        self._h_thrust.view()
 
     def view_output(self):
-        self._vertical_thrust.view(self._simulation)
-        self._horizontal_thrust.view(self._simulation)
+        self._v_thrust.view(self._simulation)
+        self._h_thrust.view(self._simulation)
 
     def get_vertical_thrust(self):
         return self._simulation.output['vertical thrust']
