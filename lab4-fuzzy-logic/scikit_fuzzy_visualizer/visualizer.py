@@ -10,7 +10,7 @@ from skfuzzy.control.fuzzyvariable import FuzzyVariable
 
 class FuzzyVariablesVisualizer:
 
-    def __init__(self, sim: ControlSystemSimulation, interval: int = 100):
+    def __init__(self, sim: ControlSystemSimulation, interval: int = 100, style: str = 'ggplot'):
         """ Creates visualizer """
         self.sim = sim
 
@@ -18,6 +18,7 @@ class FuzzyVariablesVisualizer:
         variables = list(sim.ctrl.fuzzy_variables)
 
         # init matplotlib
+        plt.style.use(style)
         self.fig, axs = plt.subplots(len(variables), gridspec_kw={'hspace': 1})
         self.fig.canvas.set_window_title('Fuzzy variables visualization')
 
