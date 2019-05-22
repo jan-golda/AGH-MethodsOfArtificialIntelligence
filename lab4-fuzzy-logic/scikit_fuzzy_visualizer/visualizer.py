@@ -78,7 +78,10 @@ class FuzzyVariablePlot:
 
         self.ax.tick_params(direction='out')
 
-        self.ax.set_title(self.var.label)
+        self.ax.set_title(
+            self.var.label,
+            fontweight='bold' if isinstance(self.var, Consequent) else 'normal'
+        )
 
         # legend
         self.ax.legend(framealpha=0.5, loc='right')
