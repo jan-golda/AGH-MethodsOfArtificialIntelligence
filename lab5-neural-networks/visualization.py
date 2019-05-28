@@ -1,5 +1,6 @@
 import math
 
+import scipy
 import numpy as np
 import keras.models as k_models
 import matplotlib.pyplot as plt
@@ -58,3 +59,70 @@ def visualize_activations(model, x, select_layers=False, **kwargs):
     # plot each layer
     for name, activation in zip(names, activations):
         plot_layer(name, activation[0], **kwargs)
+
+
+def generate_heatmap(model, x, shutter=(10, 10), shutter_value=[0,0,0]):
+    
+    # prepare output matrix
+    heatmap = np.zeros(x.shape[1:3])
+    
+    # get main image prediction
+    base_predictions = model.predict(x)[0]
+    base_class = base_predictions.argmax()
+    base_percentage = base_predictions[base_class]
+    
+    # slide shutter over image
+    for row in range(math.ceil(x.shape[2] / shutter[1])):
+        for col in range(math.ceil(x.shape[1] / shutter[0])):
+            
+            # calculate selector
+            sel = (
+                0,
+                slice(row*shutter[1], min((row+1)*shutter[1], x.shape[2])),
+                slice(col*shutter[0], min((col+1)*shutter[0], x.shape[1]))
+            )
+            
+            # copy image and apply shutter
+            img = x.copy()
+            img[sel] = shutter_value
+            
+            # calculate prediction
+            percentage = model.predict(img)[0][base_class]
+            
+            # add to heatmap
+            heatmap[sel[1:]] = base_percentage - percentage
+    
+    return heatmap
+
+
+def plot_heatmap(heatmap, blur=0.0, cmap='jet', **kwargs):
+    
+    # blur heatmap
+    if blur:
+        heatmap = scipy.ndimage.filters.gaussian_filter(heatmap, blur)
+    
+    # plot heatmap
+    plt.matshow(heatmap, cmap=cmap, **kwargs)
+    plt.colorbar()
+    plt.show()
+
+    
+def plot_heatmap_cover(heatmap, x, blur=0.0, cutoff=0.0, **kwargs):
+    
+    # normalize heatmap
+    heatmap = heatmap.copy()
+    heatmap -= heatmap.min()
+    heatmap /= heatmap.max() or 1.0
+    
+    # cutof heatmap
+    heatmap[heatmap < cutoff] = 0.0
+    
+    # blur heatmap
+    if blur:
+        heatmap = scipy.ndimage.filters.gaussian_filter(heatmap, blur)
+    
+    # cover image
+    image = (x - 0.5) * heatmap[:,:,None] + 0.5
+    
+    plt.imshow(image, **kwargs)
+    plt.show()
