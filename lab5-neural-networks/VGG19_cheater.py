@@ -35,7 +35,7 @@ class ClassCheater:
         self.x = vgg19.preprocess_input(self.x)
 
     def optimize(self):
-        x, min_val, info = fmin_l_bfgs_b(self.evaluate_loss_and_grads, self.x.flatten())
+        x, _, _ = fmin_l_bfgs_b(self.evaluate_loss_and_grads, self.x.flatten())
         self.x = x.reshape((1, 224, 224, 3))
 
     def evaluate_loss_and_grads(self, x):
