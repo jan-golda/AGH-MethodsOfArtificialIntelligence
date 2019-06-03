@@ -1,5 +1,12 @@
 (defdomain logistics
    (
+
+    ; operator for adding cost of specific operation
+    (:operator (!add-cost ?obj ?cost)
+               ((cost ?obj ?prev-cost))
+               ((cost ?obj ?prev-cost))
+               ((cost ?obj (call + ?cost ?prev-cost))))
+
     (:operator (!load-truck ?obj ?truck ?loc)
                ()
                ((obj-at ?obj ?loc) (:protection (truck-at ?truck ?loc)))
@@ -29,7 +36,6 @@
                ()
                ((airplane-at ?airplane ?airport-from))
                ((airplane-at ?airplane ?airport-to) (:protection (airplane-at ?airplane ?airport-to))))
-
 
     (:operator (!add-protection ?g)
                ()
@@ -66,13 +72,27 @@
     (:method (in-city-delivery ?truck ?obj ?loc-from ?loc-to)
              ((same ?loc-from ?loc-to))
              ()
-
-             ((in-city ?loc-from ?city)
-              (truck ?truck ?city))
+             ((in-city ?loc-from ?city) (truck ?truck ?city) (truck-at ?truck ?loc-from)) ; when truck is at this location
              ((truck-at ?truck ?loc-from)
                        (:immediate !load-truck ?obj ?truck ?loc-from)
+                       (:immediate !add-cost ?obj 1) ; cost of loading
                        (truck-at ?truck ?loc-to)
-                       (:immediate !unload-truck ?obj ?truck ?loc-to)))
+                       (:immediate !add-cost ?obj 10) ; cost of truck driving to destination
+                       (:immediate !unload-truck ?obj ?truck ?loc-to)
+                       (:immediate !add-cost ?obj 1) ; cost of unloading
+             )
+
+             ((in-city ?loc-from ?city) (truck ?truck ?city)) ; when truck is not at this location
+             ((truck-at ?truck ?loc-from)
+                       (:immediate !add-cost ?obj 10) ; cost of truck driving for package
+                       (:immediate !load-truck ?obj ?truck ?loc-from)
+                       (:immediate !add-cost ?obj 1) ; cost of loading
+                       (truck-at ?truck ?loc-to)
+                       (:immediate !add-cost ?obj 10) ; cost of truck driving to destination
+                       (:immediate !unload-truck ?obj ?truck ?loc-to)
+                       (:immediate !add-cost ?obj 1) ; cost of unloading
+             )
+    )
 
 
     (:method (truck-at ?truck ?loc-to)
@@ -87,19 +107,27 @@
 
     (:method (air-deliver-obj ?obj ?airport-from ?airport-to)
              airplane-at-the-current-airport
-             ((airplane-at ?airplane ?airport-from))
-             ((:immediate !add-protection (airplane-at
-?airplane ?airport-from))
+             ((airplane-at ?airplane ?airport-from)) ; when airplane is at this airport
+             ((:immediate !add-protection (airplane-at ?airplane ?airport-from))
                        (!load-airplane ?obj ?airplane ?airport-from)
+                       (:immediate !add-cost ?obj 3) ; cost of loading
                        (fly-airplane ?airplane ?airport-to)
-                       (!unload-airplane ?obj ?airplane ?airport-to))
+                       (:immediate !add-cost ?obj 100) ; cost of airplane flying to destination
+                       (!unload-airplane ?obj ?airplane ?airport-to)
+                       (:immediate !add-cost ?obj 3) ; cost of unloading
+             )
 
-             ((airplane-at ?airplane ?any-airport))
-             ((:immediate !fly-airplane ?airplane
-?any-airport ?airport-from)
+             ((airplane-at ?airplane ?any-airport)) ; when airplane is not at this airport
+             ((:immediate !fly-airplane ?airplane ?any-airport ?airport-from)
+                       (:immediate !add-cost ?obj 100) ; cost of airplane flying for package
                        (!load-airplane ?obj ?airplane ?airport-from)
+                       (:immediate !add-cost ?obj 3) ; cost of loading
                        (fly-airplane ?airplane ?airport-to)
-                       (!unload-airplane ?obj ?airplane ?airport-to)))
+                       (:immediate !add-cost ?obj 100) ; cost of airplane flying to destination
+                       (!unload-airplane ?obj ?airplane ?airport-to)
+                       (:immediate !add-cost ?obj 3) ; cost of unloading
+             )
+    )
 
     (:method (fly-airplane ?airplane ?airport-to)
              airplane-already-there

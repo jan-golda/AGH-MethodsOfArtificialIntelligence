@@ -1,5 +1,22 @@
 (defproblem problem logistics
  (
+  ; initial cost of packages set to 0
+  (cost package1 0)
+  (cost package2 0)
+  (cost package3 0)
+  (cost package4 0)
+  (cost package5 0)
+  (cost package6 0)
+  (cost package7 0)
+  (cost package8 0)
+  (cost package9 0)
+  (cost package10 0)
+  (cost package11 0)
+  (cost package12 0)
+  (cost package13 0)
+  (cost package14 0)
+  (cost package15 0)
+
   (airplane-at plane1 LOC1-1)
   (airplane-at plane2 LOC4-1)
   (airplane-at plane3 LOC5-1)
